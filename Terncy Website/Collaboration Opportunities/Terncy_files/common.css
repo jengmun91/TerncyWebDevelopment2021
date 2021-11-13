@@ -1,0 +1,732 @@
+@font-face {
+	font-family: 'AkkuratPro-Regular';
+	src: url('../font/Akkurat-Normal.eot?#iefix') format('embedded-opentype'), url('../font/Akkurat-Normal.woff') format('woff'), url('../font/Akkurat-Normal.ttf') format('truetype'), url('../font/Akkurat-Normal.svg#svgFontName') format('svg');
+}
+
+@font-face {
+	font-family: 'Akkurat-Light';
+	src: url('../font/Akkurat-Light.eot?#iefix') format('embedded-opentype'), url('../font/Akkurat-Light.woff') format('woff'), url('../font/Akkurat-Light.ttf') format('truetype'), url('../font/Akkurat-Light.svg#svgFontName') format('svg');
+}
+
+@font-face {
+	font-family: 'LucidaGrande';
+	src: url('../font/LucidaGrande.eot?#iefix') format('embedded-opentype'), url('../font/LucidaGrande.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'LucidaGrandeBlod';
+	src: url('../font/LucidaGrandeBold.eot?#iefix') format('embedded-opentype'), url('../font/LucidaGrandeBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Semibold';
+	src: url('../font/SFProDisplay-SemiBold.otf');
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Light';
+	src: url('../font/SFProDisplay-Light.otf');
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Regular';
+	src: url('../font/SFProDisplay-Regular.otf');
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Medium';
+	src: url('../font/SFProDisplay-Medium.otf');
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Thin';
+	src: url('../font/SFProDisplay-Thin.otf');
+}
+
+@font-face {
+	font-family: 'MyriadPro-Light';
+	src: url('../font/MyriadPro-Light.otf');
+}
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../font/MyriadPro-Regular.otf');
+}
+
+@font-face {
+	font-family: 'MyriadPro-Semibold';
+	src: url('../font/MyriadPro-Semibold.otf');
+}
+
+@font-face {
+	font-family: 'MyriadPro-SemiCn';
+	src: url('../font/MyriadPro-SemiCn.otf');
+}
+
+@font-face {
+	font-family: 'MyriadPro-SemiboldSemiCn';
+	src: url('../font/MyriadPro-SemiboldSemiCn.otf');
+}
+
+@font-face {
+	font-family: 'PingFangSC-Medium';
+	src: url('../font/pingfang\ sc\ medium.otf');
+}
+
+/* 禁止长按复制start */
+* {
+	-webkit-touch-callout: none;
+	/*系统默认菜单被禁用*/
+	-webkit-user-select: none;
+	/*webkit浏览器*/
+	-khtml-user-select: none;
+	/*早期浏览器*/
+	-moz-user-select: none;
+	/*火狐*/
+	-ms-user-select: none;
+	/*IE10*/
+	user-select: none;
+}
+
+input,
+textarea {
+	-webkit-user-select: auto;
+	/*webkit浏览器*/
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	/* For some Androids */
+}
+
+/* 禁止长按复制end */
+
+html {
+	height: 100%;
+	font-size: 62.5%;
+	background-color: #e9eaee;
+}
+
+body {
+	position: relative;
+	margin: 0 auto;
+	/*max-width: 1600px;*/
+	background-color: #e9eaee !important;
+	cursor: auto;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	background: #fff;
+}
+
+input,
+button,
+select,
+textarea {
+	cursor: pointer;
+}
+
+/* 跳转到顶部 */
+.shangla-bg {
+	width: 48px;
+	height: 48px;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	z-index: 3;
+	background: url(../img/www_icon_shangla.png) center center no-repeat;
+	background-size: 48px 48px;
+}
+
+input {
+	outline-color: invert;
+	outline-style: none;
+	outline-width: 0;
+	border: none;
+	border-style: none;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+body,
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+a,
+img {
+	border: 0;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize: none
+}
+
+.intermittently-visible-768,
+.intermittently-visible-557,
+.intermittently-visible-414,
+.intermittently-visible-375 {
+	display: none;
+}
+
+.intermittently-visible-1300 {
+	display: block;
+}
+
+@media only screen and (min-width: 558px) and (max-width: 768px) {
+
+	.intermittently-visible-1300,
+	.intermittently-visible-557,
+	.intermittently-visible-414,
+	.intermittently-visible-375 {
+		display: none;
+	}
+
+	.intermittently-visible-768 {
+		display: block;
+	}
+
+	.shangla-bg {
+		width: 38px;
+		height: 38px;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 3;
+		background: url(../img/www_icon_shangla.png) center center no-repeat;
+		background-size: 38px 38px;
+	}
+}
+
+@media only screen and (min-width:415px) and (max-width: 557px) {
+
+	.intermittently-visible-768,
+	.intermittently-visible-1300,
+	.intermittently-visible-414,
+	.intermittently-visible-375 {
+		display: none;
+	}
+
+	.intermittently-visible-557 {
+		display: block;
+	}
+
+	.shangla-bg {
+		width: 38px;
+		height: 38px;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 3;
+		background: url(../img/www_icon_shangla.png) center center no-repeat;
+		background-size: 38px 38px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+
+	.intermittently-visible-768,
+	.intermittently-visible-557,
+	.intermittently-visible-1300,
+	.intermittently-visible-375 {
+		display: none;
+	}
+
+	.intermittently-visible-414 {
+		display: block;
+	}
+
+	.shangla-bg {
+		width: 35px;
+		height: 35px;
+		position: fixed;
+		bottom: 15px;
+		right: 15px;
+		z-index: 3;
+		background: url(../img/www_icon_shangla.png) center center no-repeat;
+		background-size: 35px 35px;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+
+	.intermittently-visible-768,
+	.intermittently-visible-557,
+	.intermittently-visible-414,
+	.intermittently-visible-1300 {
+		display: none;
+	}
+
+	.intermittently-visible-375 {
+		display: block;
+	}
+}
+
+.container-fluid {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+	overflow-x: hidden;
+}
+
+.xy-awareness-switch-introduce {
+	background-color: #F4FAFC;
+}
+
+.xy-awareness-switch-referral {
+	background-color: #9BA7B6;
+}
+
+.xy-light-socket-referral {
+	background-color: #FFA62E;
+}
+
+.xy-door-sensor-referral {
+	background-color: #44CA4B;
+}
+
+.hei-siri-english {
+	display: none;
+}
+
+.xy-smart-plug-introduce {
+	background-color: #F4FAFC;
+}
+
+.xy-smart-plug-referral {
+	background-color: #5AB2E4;
+}
+
+.footer-underline:hover {
+	border-bottom: 1px solid #7e7e7e;
+}
+
+iframe {
+	border: 0;
+}
+
+.xy-footer-box {
+	height: 295.5px;
+	width: 100%;
+}
+
+.no-hover:hover {
+	text-decoration: none;
+}
+
+.product-item-a:hover {
+	color: #5AB2E4;
+	text-decoration: none;
+}
+
+.drop-down-mobile-menu a:hover {
+	text-decoration: none;
+}
+
+.mobile-menu-list:hover {
+	color: #5AB2E4;
+}
+
+.mobile-product-item:hover {
+	text-decoration: none;
+	color: #5AB2E4;
+}
+
+.footer-cha {
+	display: none;
+	font-size: 22px;
+	float: right;
+	color: #757576;
+}
+
+
+/*主页视频*/
+
+.zhezhao {
+	height: 100%;
+	width: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	opacity: 0.8;
+	display: none;
+}
+
+video {
+	display: none;
+	height: 80%;
+	width: 98%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 5;
+}
+
+.player-box {
+	display: none;
+	position: fixed;
+	height: 200;
+	width: 200px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 6;
+	margin: auto;
+}
+
+.player-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 40px;
+	width: 40px;
+	z-index: 100;
+	background: url(../img/xy_video_player.png) no-repeat center center;
+	background-size: 40px 40px;
+}
+
+a:focus,
+a:hover {
+	color: #23527c;
+	text-decoration: none;
+}
+
+/* 授权页面部分新加 css */
+#telLogin {
+	position: relative;
+	display: none;
+	width: 305px;
+	height: 200px;
+}
+
+#emailLogin {
+	position: relative;
+	width: 300px;
+	height: 200px;
+}
+
+#emaillog {
+	display: none;
+}
+
+.telSub {
+	background-color: #609FF9;
+	border-radius: 8px;
+	height: 43px;
+	width: 300px;
+	font-family: Pingfang SC;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 43px;
+	margin-bottom: 9px;
+	border: 0;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.emalSub {
+	background-color: #609FF9;
+	border-radius: 8px;
+	height: 43px;
+	width: 300px;
+	font-family: Pingfang SC;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 43px;
+	margin-bottom: 9px;
+	border: 0;
+	text-align: center;
+	margin-top: 35px;
+}
+
+#tel {
+	border-radius: 8px 0 0 8px;
+	width: 220px;
+	display: inline-block;
+}
+
+.toVerification {
+	width: 80px;
+	display: inline-block;
+	background-color: #609FF9;
+	height: 42.5px;
+	font-family: Pingfang SC;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 42.5px;
+	border: 0;
+	text-align: center;
+	border-radius: 0 8px 8px 0;
+	position: relative;
+	top: -2px;
+	right: 5px;
+	cursor: pointer
+}
+
+#phonetext {
+	color: red;
+	font-size: 14px;
+	font-family: Pingfang SC;
+}
+
+#codetext {
+	color: red;
+	font-size: 16px;
+	font-family: Pingfang SC;
+}
+
+#emailtext {
+	color: red;
+	font-size: 16px;
+	font-family: Pingfang SC;
+}
+
+#pwdtext {
+	color: red;
+	font-size: 16px;
+	font-family: Pingfang SC;
+}
+.signWith-box{
+	width: 120px;
+	height: 100px;
+	margin: 10px auto 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.signWith {
+	width: 120px;
+	height: 50px;
+	/* margin: 15px auto 0px; */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	/* top: -20px; */
+}
+
+.wxpic {
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.restlogin {
+	width: 90%;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	color: #969DA2;
+	display: flex;
+	columns: row;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.restlogintext {
+	/* width: 130px; */
+	/* margin-left: 10px; */
+	/* margin-right: 10px; */
+	text-align: center;
+	font-family: Pingfang SC;
+	letter-spacing: 0.5px;
+}
+
+.restlogintextgan {
+	width: 50px;
+	letter-spacing: -6px;
+	color: #969DA2;
+}
+
+.submitbtn {
+	visibility: hidden;
+}
+
+#tellog {
+	font-size: 14px;
+	font-family: Pingfang SC;
+	/* line-height: 16px; */
+	height: 16px;
+	cursor: pointer;
+}
+
+#emaillog {
+	font-size: 14px;
+	font-family: Pingfang SC;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.signin-button {
+	width: 36px;
+	height: 36px;
+	background: url(../img/www_applelogo.png) center center no-repeat;
+	background-size: 47px 47px;
+	padding: 0px;
+	border-radius: 18%;
+	cursor: pointer;
+}
+
+.signin-button div {
+	visibility: hidden;
+}
+.googlepic{
+	width: 36px;
+	height: 36px;
+	cursor: pointer;	
+}
+#telform {
+	visibility: hidden;
+}
+
+.activebig {
+	animation: 0.3s bg
+}
+
+@keyframes bg {
+	0% {
+		transform: scale(1)
+	}
+
+	50% {
+		transform: scale(1.1)
+	}
+
+	100% {
+		transform: scale(1.12)
+	}
+
+	;
+}
+
+.shadow {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	border-radius: 10%;
+	z-index: 998;
+	background-color: #000;
+	opacity: 0.6;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.shadow img {
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	z-index: 999;
+}
+
+.Loading-text {
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	color: #E3E4E6;
+	z-index: 999;
+}
+
+.telauthorize-fail {
+	position: absolute;
+	top: 130px;
+	text-align: center;
+	width: 100%;
+	font-family: SFProDisplay-Regular;
+	font-size: 16px;
+	color: #D0011B;
+	line-height: 16px;
+	display: none;
+}
+
+.authorizeBody {
+	background: #E3E4E6;
+	height: 100vh;
+}
+
+.ceshi {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 12px;
+}

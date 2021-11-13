@@ -1,0 +1,108 @@
+
+		// $(".sub-information-value").focus(function(){
+		// 	$(this).css({"box-shadow":"inset 0 1px 2px 0 rgba(96,159,249,0.50), inset 0 -1px 2px 0 rgba(96,159,249,0.50), inset 1px 0 2px 0 rgba(96,159,249,0.50), inset -1px 0 2px 0 rgba(96,159,249,0.50)","border":"1px solid rgba(96,159,249,1)"});
+		// });
+		// $(".sub-information-value").blur(function(){
+		//   $(this).css({"border":"1px solid #979797","box-shadow":"none"});
+		//   $(".information-error").hide()
+		// });
+		// $(".sub-information-more").focus(function(){
+		// 	$(this).css({"border":"1px solid rgba(96,159,249,1)","box-shadow":"inset 0 1px 2px 0 rgba(96,159,249,0.50), inset 0 -1px 2px 0 rgba(96,159,249,0.50), inset 1px 0 2px 0 rgba(96,159,249,0.50), inset -1px 0 2px 0 rgba(96,159,249,0.50)"});
+		// });
+		// $(".sub-information-more").blur(function(){
+		//   $(this).css({"border":"1px solid #979797","box-shadow":"none"});
+		//   $(".information-error").hide()
+		// });
+		// var informationNikename = '', informationPhone = '',informationEmail = '',informationFirmname = '',informationCity = '',informationMore = '';
+		// var reg = /^[A-Za-z\d]+([-_.][A-Za-z\d]+)*@([A-Za-z\d]+[-.])+[A-Za-z]{2,5}$/
+		// var phoneReg = /[^\u4E00-\u9FA5^[A-Za-z]/g
+		// $(".information-nickname").keyup(function(){
+		// 	informationNikename = $(this).val()
+		// 	if($(this).val().length >= 20){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 20 words.").show()
+
+		// 	}
+		// })
+		// $(".information-phone").keyup(function(){
+		// 	informationPhone = $(this).val()
+		// 	if($(this).val().length >= 20){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 20 words.").show()
+
+		// 	}
+		// })
+		// $(".information-email").keyup(function(){
+		// 	informationEmail = $(this).val()
+		// 	if($(this).val().length >= 30){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 30 words.").show()
+
+		// 	}
+		// })
+		// $(".information-firmname").keyup(function(){
+		// 	informationFirmname = $(this).val()
+		// 	if($(this).val().length >= 30){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 30 words.").show()
+
+		// 	}
+		// })
+		// $(".information-city").keyup(function(){
+		// 	informationCity = $(this).val()
+		// 	if($(this).val().length >= 30){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 30 words.").show()
+
+		// 	}
+		// })
+		// $(".information-more").keyup(function(){
+		// 	informationMore = $(this).val()
+		// 	if($(this).val().length >= 200){
+		// 		$(this).css({"border":"1px solid  #D0011B","box-shadow":"inset -1px 0 2px 0 rgba(208,2,27,0.50), inset 1px 0 2px 0 rgba(208,2,27,0.50), inset 0 -1px 2px 0 rgba(208,2,27,0.50)"})
+		// 		$(".information-error").html("Exceed word limits. The text length is limited to 200 words.").show()
+
+
+		// 	}
+		// })
+		// $(".sub-information-btn").click(function(){
+		// 	var codejson = {
+		// 		Name: informationNikename,
+		// 		Phone: informationPhone,
+		// 		Email: informationEmail,
+		// 		Company: informationFirmname,
+		// 		Region: informationCity,
+		// 		Note: informationMore
+		// 	};
+		// 	if(informationNikename.length == 0){
+		// 		$(".information-error").html("Please fill in your name.").show()
+		// 		return
+		// 	}
+		// 	if(informationPhone.length == 0 && informationEmail.length == 0){
+		// 		$(".information-error").html("Please fill in your telephone number or email address.").show()
+		// 		return
+		// 	}
+		// 	if(informationPhone.length != 0 && !phoneReg.test(informationPhone)){
+		// 		$(".information-error").html("The phone number is invalid.").show()
+		// 		return
+		// 	}
+		// 	if(informationEmail.length != 0 && !reg.test(informationEmail)){
+		// 		$(".information-error").html("The email address is invalid.").show()
+		// 		return
+		// 	}
+
+		// $.ajax({
+		// 	type: "post",
+		// 	url: "http://192.168.2.234/events/partner",
+		// 	async: true,
+		// 	dataType: 'json',
+		// 	data: JSON.stringify(codejson),
+		// 	success: function(res) {
+		// 		console.log(res)
+		// 	},
+		// 	error: function(res) {
+		// 		console.log(res)
+		// 	}
+		// });
+
+		// })

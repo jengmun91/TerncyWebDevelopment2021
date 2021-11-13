@@ -1,0 +1,1692 @@
+/* default max size 1280px */
+
+body {
+    position: relative;
+    max-width: 1300px;
+    background-color: white !important;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.motor-bg-first {
+    height: 760px;
+    width: 100%;
+    background: url(./motor-1.png) center no-repeat;
+    background-size: 1280px 760px;
+}
+
+.motor-text-first {
+    font-family: MyriadPro-Regular;
+    font-size: 50px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 62px;
+    padding-top: 275px;
+    padding-left: 52.3%;
+}
+
+.motor-text-first-small {
+    font-family: MyriadPro-Regular;
+    font-size: 24px;
+    color: rgba(74, 74, 74, 0.72);
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    padding-top: 0px;
+    padding-left: 52.3%;
+}
+
+.motor-bg-second {
+    background: url(./xy_detail_introduce_dot.png) center 92px no-repeat;
+    background-size: 1100px 555px;
+    width: 98.46%;
+    height: 595px;
+    background-color: #F4FAFC;
+    position: relative;
+    margin: 0 auto;
+}
+
+.motor-text-second {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 155px;
+}
+
+.motor-text-second-small {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.motor-img-first {
+    background: url(./motor-6.png) center center no-repeat;
+    background-size: 939px 500px;
+    width: 100%;
+    height: 500px;
+    padding-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 1;
+}
+
+.motor-bg-three {
+    background: url(./xy_detail_referral_dot.png) center 196px no-repeat;
+    background-size: 1100px 596px;
+    width: 98.46%;
+    height: 974px;
+    background-color: #5AB2E4;
+    position: relative;
+    margin: 0 auto;
+}
+
+.motor-text-three {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 293px;
+}
+
+.motor-text-three-small {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.motor-img-second {
+    background: url(./motor-44.png) center center no-repeat;
+    background-size: 558px 838px;
+    width: 100%;
+    height: 838px;
+    position: absolute;
+    top: 425px;
+    left: 0%;
+    z-index: 1;
+}
+
+.motor-bg-four {
+    background: url(./motor-14.png) center no-repeat;
+    background-size: 1280px 853px;
+    width: 100%;
+    height: 853px;
+}
+
+.motor-text-title {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0;
+    line-height: 54px;
+}
+
+.motor-text-content {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.motor-text-four {
+    padding-top: 281px;
+    padding-left: 100px;
+    width: 511px;
+}
+
+.motor-content-four {
+    width: 440px;
+    padding-left: 100px;
+}
+
+.card-container-one {
+    width: 100%;
+    height: 712px;
+    display: flex;
+    margin: 90px auto;
+}
+
+.card-container-two {
+    width: 100%;
+    height: 712px;
+    display: flex;
+    margin: 90px auto;
+}
+
+.card-container-three {
+    width: 100%;
+    height: 712px;
+    display: flex;
+    margin: 90px auto;
+}
+
+.card-text {
+    width: 49%;
+}
+
+.card-title-one {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: 46px;
+    width: 100%;
+    height: 108px;
+    padding-left: 11%;
+}
+
+.card-title-two {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: 46px;
+    width: 100%;
+    height: 108px;
+    padding-left: 11%;
+}
+
+.card-title-three {
+    font-family: MyriadPro-SemiCn;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: 46px;
+    width: 79%;
+    height: 108px;
+    padding-left: 11%;
+}
+
+.card-title-767 {
+    font-family: MyriadPro-SemiCn;
+    font-size: 30px;
+    color: #656C6E;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.card-title-wrap {
+    width: 450px;
+}
+
+.card-content-one {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    width: 100%;
+    padding-left: 11%;
+    padding-top: 15px;
+    padding-right: 27%;
+}
+
+.card-content-two {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    width: 100%;
+    padding-left: 11%;
+    padding-top: 15px;
+    padding-right: 24%;
+}
+
+.card-content-three {
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    width: 100%;
+    padding-left: 11%;
+    padding-top: 15px;
+    padding-right: 31%;
+}
+
+.card-img {
+    background: url(./motor-18.png) left no-repeat;
+    background-size: 570px 712px;
+    width: 49%;
+}
+
+.card-img-second {
+    background: url(./motor-22.png) right no-repeat;
+    background-size: 570px 712px;
+    width: 49%;
+}
+
+.card-img-three {
+    background: url(./motor-26.png) left no-repeat;
+    background-size: 570px 712px;
+    width: 49%;
+}
+
+.motor-bg-five {
+    background: url(./motor-30.png) center no-repeat;
+    background-size: 1280px 650px;
+    width: 100%px;
+    height: 650px;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+.motor-text-five {
+    padding-left: 100px;
+    padding-top: 90px;
+}
+
+.motor-content-five {
+    padding-top: 15px;
+    padding-left: 100px;
+    width: 550px;
+}
+
+.motor-img-three {
+    background: url(./motor-43.png) right no-repeat;
+    background-size: 840px 256px;
+    width: 64.6%;
+    height: 256px;
+    position: absolute;
+    top: 520px;
+    left: 0px;
+    z-index: 1;
+}
+
+.tip-first {
+    position: absolute;
+    top: 700px;
+    left: 61.5%;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 18px;
+    color: #9B9B9B;
+    letter-spacing: 0.3px;
+    line-height: 23px;
+    width: 33%;
+}
+
+.motor-bg-six {
+    background: url(./motor-34.png) center center no-repeat;
+    background-size: 1280px 853px;
+    width: 100%;
+    height: 853px;
+    margin-bottom: 10px;
+}
+
+.motor-text-six {
+    padding-top: 340px;
+    padding-left: 46%;
+}
+
+.motor-content-six {
+    padding-left: 46%;
+    padding-top: 20px;
+    width: 89%;
+}
+
+.motor-bg-seven {
+    background: url(./motor-38.png) center center no-repeat;
+    background-size: 1280px 853px;
+    width: 100%;
+    height: 853px;
+    margin-bottom: 10px;
+}
+
+.motor-text-seven {
+    padding-top: 121px;
+    padding-left: 100px;
+}
+
+.motor-content-seven {
+    padding-left: 100px;
+    padding-top: 15px;
+    width: 600px;
+}
+
+.motor-bg-eight {
+    background: url(./motor-42.png) center center no-repeat;
+    background-size: 1280px 853px;
+    width: 100%;
+    height: 853px;
+    margin-bottom: 10px;
+}
+
+.motor-text-eight {
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 650px;
+}
+
+.motor-content-eight {
+    padding-left: 100px;
+    padding-top: 15px;
+    width: 580px;
+}
+
+@media only screen and (min-width: 558px) and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .motor-bg-first {
+        height: 615px;
+        width: 100%;
+        background: url(./motor-1.png) center no-repeat;
+        background-size: 767px 615px;
+    }
+
+    .motor-bg-second {
+        background: url(./xy_detail_introduce_dot.png) center 92px no-repeat;
+        background-size: 499px 251px;
+        width: 100%;
+        height: 400px;
+        background-color: #F4FAFC;
+        position: relative;
+    }
+
+    .motor-bg-three {
+        background: url(./xy_detail_referral_dot.png) center 115px no-repeat;
+        background-size: 499px 270px;
+        width: 100%;
+        height: 700px;
+        background-color: #5AB2E4;
+        position: relative;
+    }
+
+    .motor-bg-four {
+        background: url(./motor-13.png) center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .motor-bg-five {
+        background: url(./motor-29.png) center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        margin-bottom: 211px;
+    }
+
+    .motor-bg-six {
+        background: url(./motor-33.png) center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .motor-bg-seven {
+        background: url(./motor-37.png) center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .motor-bg-eight {
+        background: url(./motor-41.png) center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .motor-text-first {
+        font-family: MyriadPro-Regular;
+        font-size: 40px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        padding-left: 48%;
+        padding-top: 225px;
+    }
+
+    .motor-text-first-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #4A4A4A;
+        line-height: 22px;
+        padding-top: 0px;
+        padding-left: 48%;
+    }
+
+    .motor-text-second {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 37px;
+        padding-top: 90px;
+    }
+
+    .motor-text-second-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .motor-text-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 37px;
+        padding-top: 180px;
+    }
+
+    .motor-text-three-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .motor-text-four {
+        padding-top: 281px;
+        padding-left: 100px;
+        width: 370px;
+    }
+
+    .motor-content-four {
+        width: 430px;
+        padding-left: 100px;
+    }
+
+    .motor-text-title {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 35px;
+    }
+
+    .motor-text-content {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    .card-container-one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 893px;
+        margin: 0;
+    }
+
+    .card-container-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 867px;
+        margin: 0;
+    }
+
+    .card-container-three {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 912px;
+        margin: 0;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .card-title-one {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+        margin-top: 90px;
+        padding-left: 0;
+    }
+
+    .card-title-two {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+        margin: 90px auto 0;
+        padding: 0;
+    }
+
+    .card-title-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+        padding: 0;
+        margin: 90px 0 0 0;
+    }
+
+    .card-title-767 {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-content-one {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 600px;
+        margin: -80px auto 0;
+        padding-bottom: 60px;
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+
+    .card-content-two {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 470px;
+        margin: -80px auto 0;
+        padding: 15px 0 60px 0;
+    }
+
+    .card-content-three {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 470px;
+        margin: -80px auto 0;
+        padding: 15px 0 60px 0;
+    }
+
+    .card-img {
+        background: url(./motor-18.png) center center no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+    }
+
+    .card-img-second {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .card-img-second-hidden {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+    }
+
+    .card-img-three {
+        background: url(./motor-25.png) right no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto 90px;
+    }
+
+    .motor-img-three {
+        background: url(./motor-43.png) center no-repeat;
+        background-size: 654px 200px;
+        width: 100%;
+        height: 225px;
+        position: absolute;
+        top: 583px;
+        left: 0px;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .tip-first {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #9B9B9B;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        position: absolute;
+        top: 810px;
+        left: 22%;
+        width: 55%;
+    }
+
+    .motor-text-five {
+        padding-left: 50px;
+        padding-top: 90px;
+    }
+
+    .motor-content-five {
+        padding-top: 10px;
+        padding-left: 50px;
+        width: 280px;
+    }
+
+    .motor-text-six {
+        padding-top: 260px;
+        padding-left: 55%;
+    }
+
+    .motor-content-six {
+        padding-left: 55%;
+        padding-top: 10px;
+        width: 91%;
+    }
+
+    .motor-text-seven {
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+
+    .motor-content-seven {
+        padding-top: 10px;
+        padding-left: 50px;
+        width: 280px;
+    }
+
+    .motor-text-eight {
+        padding-top: 90px;
+        padding-left: 50px;
+        width: 450px;
+    }
+
+    .motor-content-eight {
+        padding-top: 10px;
+        padding-left: 50px;
+        width: 310px;
+    }
+
+    .motor-img-first {
+        background: url(./motor-6.png) center center no-repeat;
+        background-size: 550px 293px;
+        width: 100%;
+        height: 293px;
+        padding-top: 10%;
+        position: absolute;
+        top: 56%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .motor-img-second {
+        background: url(./motor-45.png) center center no-repeat;
+        background-size: 409px 574px;
+        width: 100%;
+        height: 584px;
+        padding: 0;
+        position: absolute;
+        top: 340px;
+        left: 0%;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 557px) {
+    body {
+        width: 100%;
+    }
+
+    .motor-bg-first {
+        background: url(./motor-3.png) center center no-repeat;
+        background-size: 100% 615px;
+        width: 100%;
+        height: 615px;
+
+    }
+
+    .motor-bg-second {
+        background: url(./xy_detail_introduce_dot.png) center 99px no-repeat;
+        background-size: 499px 251px;
+        width: 100%;
+        height: 400px;
+        background-color: #F4FAFC;
+        position: relative;
+    }
+
+    .motor-bg-three {
+        background: url(./xy_detail_referral_dot.png) center 116px no-repeat;
+        background-size: 499px 270px;
+        width: 100%;
+        height: 700px;
+        background-color: #5AB2E4;
+        position: relative;
+    }
+
+    .motor-bg-four {
+        background: url(./motor-12.png) center center no-repeat;
+        background-size: 100% 700px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .motor-bg-five {
+        background: url(./motor-28.png) center center no-repeat;
+        background-size: 100% 470px;
+        width: 100%;
+        height: 470px;
+        position: relative;
+        margin-bottom: 150px;
+        margin-top: -287px;
+    }
+
+    .motor-bg-six {
+        background: url(./motor-32.png) center center no-repeat;
+        background-size: 100% 470px;
+        width: 100%;
+        height: 470px;
+    }
+
+    .motor-bg-seven {
+        background: url(./motor-36.png) center center no-repeat;
+        background-size: 100% 470px;
+        width: 100%;
+        height: 470px;
+    }
+
+    .motor-bg-eight {
+        background: url(./motor-40.png) center center no-repeat;
+        background-size: 100% 470px;
+        width: 100%;
+        height: 470px;
+    }
+
+    .motor-text-first {
+        font-family: MyriadPro-Regular;
+        font-size: 40px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        text-align: center;
+        padding: 80px 0 0 0;
+    }
+
+    .motor-text-first-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #4A4A4A;
+        text-align: center;
+        line-height: 22px;
+        padding: 0 0 0 0;
+    }
+
+    .motor-text-second {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        padding-top: 75px;
+    }
+
+    .motor-text-second-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .motor-text-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        text-align: center;
+        line-height: 35px;
+        padding-top: 180px;
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .motor-text-three-small {
+        opacity: 0.85;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .motor-text-four {
+        padding-top: 351px;
+        padding-left: 14%;
+        width: 57%;
+    }
+
+    .motor-content-four {
+        padding-top: 10px;
+        padding-left: 14%;
+        width: 59%;
+    }
+
+    .motor-text-five {
+        padding-top: 50px;
+        padding-left: 50px;
+        width: 313px;
+    }
+
+    .motor-content-five {
+        padding-left: 50px;
+        padding-top: 10px;
+        width: 222px;
+    }
+
+    .motor-text-title {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 35px;
+    }
+
+    .motor-text-content {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    .card-container-one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 894px;
+    }
+
+    .card-container-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 894px;
+    }
+
+    .card-container-three {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 915px;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .card-title-one {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 35px;
+        text-align: center;
+        width: 89%;
+        height: 42px;
+        margin: 0px auto 0;
+        padding: 0;
+    }
+
+    .card-title-two {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        margin-top: -90px;
+        width: 100%;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .card-title-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        margin-top: -190px;
+        width: 100%;
+        height: 42px;
+        padding: 0;
+    }
+
+    .card-content-one {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 460px;
+        padding-top: 5px;
+        padding-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .card-content-two {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 420px;
+        padding-top: 5px;
+        padding-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .card-content-three {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        width: 410px;
+        padding-top: 5px;
+        padding-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .card-img {
+        background: url(./motor-16.png) center center no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+    }
+
+    .card-img-second {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .card-img-second-hidden {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto;
+    }
+
+    .card-img-three {
+        background: url(./motor-25.png) right no-repeat;
+        background-size: 499px 623px;
+        width: 499px;
+        height: 623px;
+        margin: 0 auto 90px;
+    }
+
+    .motor-img-three {
+        background: url(./motor-43.png) center no-repeat;
+        background-size: 460.5px 139px;
+        width: 100%;
+        height: 159px;
+        position: absolute;
+        top: 389px;
+        left: 0px;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .tip-first {
+        position: absolute;
+        top: 560px;
+        left: 16%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        color: #9B9B9B;
+        letter-spacing: 0;
+        line-height: 20px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .motor-text-six {
+        padding-top: 259px;
+        padding-left: 42%;
+        width: 110%;
+    }
+
+    .motor-content-six {
+        padding-top: 10px;
+        padding-left: 42%;
+        width: 91%;
+    }
+
+    .motor-text-seven {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .motor-content-seven {
+        padding-top: 15px;
+        padding-left: 50px;
+        width: 260px;
+    }
+
+    .motor-text-eight {
+        padding-top: 50px;
+        padding-left: 50px;
+        width: 370px;
+    }
+
+    .motor-content-eight {
+        padding-top: 15px;
+        padding-left: 50px;
+        width: 280px;
+    }
+
+    .motor-img-first {
+        background: url(./motor-6.png) center center no-repeat;
+        background-size: 504px 268px;
+        width: 100%;
+        height: 268px;
+        padding-top: 10%;
+        position: absolute;
+        top: 56%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .motor-img-second {
+        background: url(./motor-46.png) center center no-repeat;
+        background-size: 409px 574px;
+        width: 100%;
+        height: 574px;
+        position: absolute;
+        top: 350px;
+        left: 0%;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 414px) {
+    body {
+        width: 100%;
+    }
+
+    .motor-bg-first {
+        background: url(./motor-4.png) center center no-repeat;
+        background-size: 414px 600px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .motor-bg-second {
+        background: url(./xy_detail_introduce_dot.png) center 275px no-repeat;
+        background-size: 370px 186px;
+        width: 100%;
+        height: 489px;
+        background-color: #F4FAFC;
+        position: relative;
+    }
+
+    .motor-bg-three {
+        background: url(./xy_detail_referral_dot.png) center 158px no-repeat;
+        background-size: 370px 200px;
+        width: 100%;
+        height: 695px;
+        background-color: #5AB2E4;
+        position: relative;
+    }
+
+    .motor-bg-four {
+        background: url(./motor-11.png) center center no-repeat;
+        background-size: 414px 530px;
+        width: 100%;
+        height: 530px;
+    }
+
+    .motor-bg-five {
+        background: url(./motor-27.png) top no-repeat;
+        background-size: 414px 497px;
+        width: 100%px;
+        height: 497px;
+        position: relative;
+        margin-top: -315px;
+        margin-bottom: 175px;
+    }
+
+    .motor-bg-six {
+        background: url(./motor-31.png) center center no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+    }
+
+    .motor-bg-seven {
+        background: url(./motor-35.png) center center no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+    }
+
+    .motor-bg-eight {
+        background: url(./motor-39.png) center center no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+    }
+
+    .motor-text-first {
+        font-family: MyriadPro-Regular;
+        font-size: 35px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        text-align: center;
+        padding: 90px 0 0;
+    }
+
+    .motor-text-first-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #4A4A4A;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 22px;
+        padding: 0;
+        margin-top: -10px;
+    }
+
+    .motor-text-second {
+        font-family: MyriadPro-SemiCn;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+        padding-top: 90px;
+    }
+
+    .motor-text-second-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 0;
+        padding-top: 8px;
+        width: 264px;
+        margin: 0 auto;
+    }
+
+    .motor-text-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 25px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+        padding-top: 230px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .motor-text-three-small {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 0;
+        padding-top: 8px;
+    }
+
+    .motor-text-four {
+        padding-top: 170px;
+        padding-left: 42px;
+        width: 240px;
+    }
+
+    .motor-content-four {
+        padding-left: 42px;
+        padding-top: 15px;
+        width: 245px;
+    }
+
+    .motor-text-five {
+        padding-top: 45px;
+        padding-left: 40px;
+        width: 380px;
+    }
+
+    .motor-content-five {
+        padding-top: 10px;
+        padding-left: 40px;
+        width: 281px;
+    }
+
+    .motor-text-title {
+        font-family: MyriadPro-SemiCn;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+
+    .motor-text-content {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    .card-container-one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 720px;
+    }
+
+    .card-container-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 698px;
+    }
+
+    .card-container-three {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 745px;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .card-title-one {
+        font-family: MyriadPro-SemiCn;
+        font-size: 22px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 25px;
+        width: 100%;
+        margin-top: -37px;
+        height: 30px;
+        padding-left: 40px;
+    }
+
+    .card-title-two {
+        font-family: MyriadPro-SemiCn;
+        font-size: 22px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 25px;
+        width: 100%;
+        margin-top: -100px;
+        padding: 0 0 0 45px;
+    }
+
+    .card-title-three {
+        font-family: MyriadPro-SemiCn;
+        font-size: 22px;
+        color: #656C6E;
+        letter-spacing: 0;
+        line-height: 25px;
+        width: 100%;
+        margin-top: -180px;
+        padding: 0 0 0 40px;
+    }
+
+    .card-content-one {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 22px;
+        width: 81.7%;
+        padding: 35px 0 40px 0px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .card-content-two {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 22px;
+        width: 89.3%;
+        padding-top: 5px;
+        padding-bottom: 40px;
+        padding-left: 45px;
+        padding-right: 20px;
+        margin-top: -70px;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .card-content-three {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 22px;
+        width: 99%;
+        padding-left: 40px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+        margin-top: -80px;
+        text-align: left;
+    }
+
+    .addtional-content-padding {
+        padding-top: 57px;
+    }
+
+    .card-img {
+        background: url(./motor-16.png) center center no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+        margin: 0 auto;
+    }
+
+    .card-img-second {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 414px 497px;
+        width: 65%;
+        height: 497px;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .card-img-second-hidden {
+        background: url(./motor-21.png) left no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+        margin: 0 auto;
+    }
+
+    .card-img-three {
+        background: url(./motor-25.png) right no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+        margin: 0 auto;
+    }
+
+    .tip-first {
+        position: absolute;
+        top: 570px;
+        left: 12%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        color: #9B9B9B;
+        letter-spacing: 0;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+
+    .motor-text-six {
+        padding-top: 251px;
+        padding-left: 35.7%;
+        width: 106%;
+    }
+
+    .motor-content-six {
+        padding-top: 10px;
+        padding-left: 35.7%;
+        width: 89.6%;
+    }
+
+    .motor-text-seven {
+        padding-top: 45px;
+        padding-left: 40px;
+    }
+
+    .motor-content-seven {
+        padding-top: 10px;
+        padding-left: 40px;
+        width: 250px;
+    }
+
+    .motor-text-eight {
+        padding-top: 45px;
+        padding-left: 40px;
+        width: 250px;
+    }
+
+    .motor-content-eight {
+        padding-top: 10px;
+        padding-left: 40px;
+        width: 215px;
+    }
+
+    .motor-img-first {
+        background: url(./motor-5.png) center center no-repeat;
+        background-size: 320px 410px;
+        width: 100%;
+        height: 410px;
+        position: absolute;
+        top: 48%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .motor-img-second {
+        background: url(./motor-47.png) center center no-repeat;
+        background-size: 397px 553px;
+        width: 100%;
+        height: 553px;
+        position: absolute;
+        top: 355px;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .motor-img-three {
+        background: url(./motor-43.png) center no-repeat;
+        background-size: 357.2px 110px;
+        width: 100%;
+        height: 124px;
+        position: absolute;
+        top: 436px;
+        left: 0px;
+        z-index: 1;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 370px) and (min-width: 100px) {
+
+    .motor-text-second,
+    .motor-text-three,
+    .motor-text-title,
+    .card-title-one,
+    .card-title-two,
+    .card-title-three,
+    .motor-text-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .card-container-one,
+    .card-container-two,
+    .card-container-three {
+        margin: 0 auto;
+    }
+
+    .card-container-two {
+        height: 691px;
+    }
+
+    .card-title-two,
+    .card-title-three,
+    .card-title-one,
+    .card-content-two,
+    .card-content-three {
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .card-container-one,
+    .card-container-two,
+    .card-container-three {
+        padding-top: 50px;
+    }
+
+    .motor-text-title,
+    .motor-text-content {
+        width: 81%;
+        padding-left: 30px;
+    }
+
+    .motor-text-five,
+    .card-title-one,
+    .motor-content-five,
+    .motor-text-six,
+    .motor-content-six,
+    .motor-text-seven,
+    .motor-content-seven,
+    .motor-text-eight,
+    .motor-content-eight {
+        padding-left: 30px;
+    }
+
+    .card-title-two,
+    .card-content-two {
+        padding-left: 0;
+        padding: 0;
+        height: auto;
+        width: 73%;
+        margin-left: 30px;
+    }
+
+    .card-content-two {
+        width: 80%;
+        padding-right: 0;
+        margin-top: 10px;
+
+    }
+
+    .card-text {
+        padding-bottom: 40px;
+    }
+
+    .tip-first {
+        left: 6%;
+    }
+
+    .card-content-one,
+    .card-content-three {
+        margin: 5px auto 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

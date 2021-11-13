@@ -1,0 +1,135 @@
+var str = `<div class="xy-product-item">
+<a href="../Products/Smart Wireness Switch - Terncy.html" class="product-item-a">
+    <div class="product-item-nav product-awarness-switch-box">
+        <img src="./Smart Curtain Motor - Terncy_files/newxy_line_awarness_switch.png" class="line-icon-product-awarness-switch producticon">
+        Awareness Switch
+        <div class="clearfix"></div>
+    </div>
+</a>
+<a href="../Products/Smart Dial - Terncy.html" class="product-item-a">
+    <div class="product-item-nav product-curtain-knob-box">
+        <img src="./Smart Curtain Motor - Terncy_files/www_icon_knoblogo.png" class="line-icon-product-curtain-dolo producticon">
+        Smart Dial
+        <div class="clearfix"></div>
+    </div>
+</a>
+<a href="../Products/No Neutral Wire Smart Wall Switch - Terncy.html" class="product-item-a wall-switch-item">
+    <div class="product-item-nav product-wall-switch-without-box">
+        <img src="./Smart Curtain Motor - Terncy_files/newxy_line_wall_switch_no_wire.png" class="line-icon-product-wall-switch producticon">
+
+        Wall Switch<br>(without Neutral Wire)
+        <div class="clearfix"></div>
+    </div>
+</a>
+<a href="../Products/Smart Curtain Motor - Terncy.html" class="product-item-a">
+    <div class="product-item-nav product-curtain-moto-box">
+        <img src="./Smart Curtain Motor - Terncy_files/newxy_line_curtain_motor.png" class="line-icon-product-curtain-motor producticon">
+        Smart Curtain Motor
+        <div class="clearfix"></div>
+    </div>
+</a>
+
+<a href="../Products/Smart Door Sensor - Terncy.html" class="product-item-a">
+    <div class="product-item-nav product-door-sensor-box">
+        <img src="./Smart Curtain Motor - Terncy_files/newxy_line_door_sensor.png" class="line-icon-product-door-sensor producticon">
+        Door Sensor
+        <div class="clearfix"></div>
+    </div>
+</a>
+
+<a href="../Products/Smart Switch Module 2 Gang - Terncy.html" class="product-item-a wall-switch-item">
+    <div class="product-item-nav product-curtain-dolo-box">
+    <img src="./Smart Curtain Motor - Terncy_files/www_icon_newswichmodul_d2.png" class="line-icon-product-curtain-dolo producticon">
+        <p class="nav-top-size">Switch Module 2 Gang</p>
+        <div class="clearfix"></div>
+    </div>
+</a>
+
+<a href="../Products/Smart Curtrain Motor AIR - Terncy.html" class="product-item-a wall-switch-item">
+    <div class="product-item-nav product-curtain-dolo-box">
+        <img src="./Smart Curtain Motor - Terncy_files/www_icon_motorline.png" class="line-icon-product-curtain-dolo producticon">
+        Smart Curtain Motor · Lite<div class="clearfix"></div>
+    </div>
+</a>
+
+
+</div>
+`;
+$('.drop-down-menu-product')[0].innerHTML = str;
+
+var mstr = `
+<div><a class="mobile-product-item"
+        href="../Products/Smart Wireness Switch - Terncy.html">Awareness Switch</a></div>
+<div><a class="mobile-product-item" href="../Products/Smart Door Sensor - Terncy.html">Door Sensor</a>
+</div>
+<div><a class="mobile-product-item"
+        href="../Products/No Neutral Wire Smart Wall Switch - Terncy.html">Wall Switch (without Neutral Wire)</a></div>
+<div><a class="mobile-product-item"
+        href="../Products/Smart Curtain Motor - Terncy.html">Smart Curtain Motor</a></div>
+<div><a class="mobile-product-item" href="../Products/Smart Dial - Terncy.html">Smart Dial</a>
+</div>
+<div><a class="mobile-product-item" href="../Products/Smart Switch Module 2 Gang - Terncy.html">Switch Module 2 Gang</a>
+</div>
+<div><a class="mobile-product-item"
+        href="../Products/Smart Curtrain Motor AIR - Terncy.html">Smart Curtain Motor · Lite</a></div>
+`
+$('.mobile-product')[0].innerHTML = mstr;
+
+var btstr = `<li class="footer-nav-li-item-first">
+Shop and Learn
+<div
+    class="footer-jia iconfont icon-jia hidden-lg hidden-md intermittently-visible-768 intermittently-visible-557 intermittently-visible-414 intermittently-visible-375">
+</div>
+<div
+    class="footer-cha iconfont icon-close hidden-lg hidden-md intermittently-visible-768 intermittently-visible-557 intermittently-visible-414 intermittently-visible-375">
+</div>
+</li>
+<a class="footer-underline" href="../Products/Smart Wireness Switch - Terncy.html">
+<li class="footer-nav-li-item">Awareness Switch</li>
+</a>
+<a class="footer-underline" href="../Products/Smart Door Sensor - Terncy.html">
+<li class="footer-nav-li-item">Door Sensor</li>
+</a>
+<a class="footer-underline" href="../Products/No Neutral Wire Smart Wall Switch - Terncy.html">
+<li class="footer-nav-li-item footer-nav-li-item-wallswitch">
+    Wall Switch<br>(without Neutral Wire)
+</li>
+</a>
+<a class="footer-underline" href="../Products/Smart Curtain Motor - Terncy.html">
+<li class="footer-nav-li-item">Smart Curtain Motor</li>
+</a>
+<a class="footer-underline" href="../Products/Smart Dial - Terncy.html">
+<li class="footer-nav-li-item">Smart Dial</li>
+</a>
+<a class="footer-underline" href="../Products/Smart Switch Module 2 Gang - Terncy.html">
+<li class="footer-nav-li-item">Switch Module 2 Gang</li>
+</a>
+<a class="footer-underline" href="../Products/Smart Curtrain Motor AIR - Terncy.html">
+<li class="footer-nav-li-item">Smart Curtain Motor · Lite</li>
+</a>
+`
+$('.footer-nav-ul-item-first')[0].innerHTML = btstr;
+
+
+//跳转顶部
+var shangla = `<div class="shangla-bg"></div>`
+$('body').prepend(shangla);
+$('.shangla-bg').hide();
+$(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $(".shangla-bg").fadeIn(400);
+        } else {
+            $(".shangla-bg").fadeOut(400);
+        }
+    });
+    $(".shangla-bg").click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    })
+})
+
+
+

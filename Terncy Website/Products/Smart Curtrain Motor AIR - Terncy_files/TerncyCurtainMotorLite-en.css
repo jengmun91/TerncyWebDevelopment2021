@@ -1,0 +1,1435 @@
+body {
+    max-width: 1300px;
+    position: relative;
+    background-color: white !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.motorLite_top_top {
+    width: 98.4%;
+    height: 760px;
+    margin: 0 auto;
+    background: url(./www_bg_Motorlitebgone.png) center center no-repeat;
+    background-size: 1280px 760px;
+    padding-top: 236px;
+}
+
+.top_top_fontsize {
+    display: flex;
+    align-items: center;
+    width: 415px;
+    /* height: 60px; */
+    line-height: 60px;
+    text-align: center;
+    font-family: MyriadPro-Regular;
+    font-size: 50px;
+    color: #4A4A4A;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top_top_fontimp {
+    width: 100%;
+    /* height: 32px; */
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 24px;
+    color: #4A4A4A;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.motorLite_top_conten {
+    width: 98.4%;
+    height: 595px;
+    margin: 0 auto;
+    position: relative;
+    background: #F4FAFC;
+}
+
+.top_conten_top {
+    width: 100%;
+    height: 555px;
+    background: url(./www_bg_MotorLiteOval1.png) center center no-repeat;
+    background-size: 1100px 555px;
+    position: absolute;
+    top: 92px;
+    padding-top: 63px;
+}
+
+.conten_top_fontsize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 761px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 54px;
+    /* height: 54px; */
+}
+
+.conten_top_fontimp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 520px;
+    /* height: 28px; */
+    text-align: center;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.top_conten_conten {
+    width: 100%;
+    height: 464px;
+    background: url(./www_bg_Motorlitemotor.png) center center no-repeat;
+    background-size: 827px 464px;
+    position: absolute;
+    top: 317px;
+    z-index: 2;
+}
+
+.motorLite_top_bot {
+    width: 98.4%;
+    height: 974px;
+    background: #5AB2E4;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top_bot_top {
+    width: 100%;
+    height: 596px;
+    background: url(./www_bg_MotorLiteOval2.png) center center no-repeat;
+    background-size: 1100px 596px;
+    position: absolute;
+    top: 196px;
+    padding-top: 97px;
+}
+
+.bot_top_fontsize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 54px;
+    /* height: 54px; */
+    margin-bottom: 15px;
+}
+
+.bot_top_fontimp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.85;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 28px;
+    /* height: 28px; */
+}
+
+.top_bot_bot {
+    width: 100%;
+    height: 838px;
+    position: absolute;
+    background: url(./www_bg_Motorlitecontone-en.png) center center no-repeat;
+    background-size: 558px 838px;
+    top: 426px;
+}
+
+.motorLite-conten-top {
+    width: 98.4%;
+    height: 853px;
+    background: url(./www_bg_Motorlitebgfiv.png) center center no-repeat;
+    background-size: 1280px 853px;
+    margin: 0 auto;
+    padding-top: 317px;
+    padding-left: 67.5%;
+    margin-bottom: 90px;
+}
+
+.conten-top-fontsize {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 54px;
+    margin-bottom: 25px;
+}
+
+.conten-top-fontimp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    /* height: 28px; */
+}
+
+.motorLite-conten-bot {
+    width: 98.4%;
+    height: 712px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 90px;
+
+}
+
+.conten-bot-left {
+    width: 50%;
+    padding-top: 72px;
+    padding-left: 146px;
+}
+
+.bot-left-fontsize {
+    display: flex;
+    align-items: center;
+    width: 410px;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 54px;
+    /* height: 54px; */
+    margin-bottom: 25px;
+}
+
+.bot-left-fontimp {
+    display: flex;
+    align-items: center;
+    width: 354px;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    /* height: 28px; */
+}
+
+.conten-bot-right {
+    background: url(./www_bg_Motorlitebgfore.png) left center no-repeat;
+    background-size: 570px 712px;
+    width: 50%;
+}
+
+.motorLite-bot-top {
+    width: 98.4%;
+    height: 712px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 90px;
+}
+
+.bot-top-right {
+    width: 50%;
+    background: url(./www_bg_Motorlitebgthree.png) right center no-repeat;
+    background-size: 570px 712px;
+}
+
+.bot-top-left {
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 72px;
+}
+
+.top-left-fontsizetwo {
+    display: none;
+}
+
+.top-left-fontsize {
+    display: flex;
+    align-items: center;
+    width: 464px;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 54px;
+    /* height: 54px; */
+    margin-bottom: 25px;
+}
+
+.top-left-fontimp {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    /* height: 28px; */
+}
+
+.motorLite-bot-bot {
+    width: 98.4%;
+    height: 870px;
+    margin: 0 auto;
+}
+
+.bot-bot-top {
+    width: 100%;
+    height: 650px;
+    background: url(./www_bg_Motorlitebgtwo.png) center center no-repeat;
+    background-size: 1280px 650px;
+    padding-top: 90px;
+    padding-left: 100px;
+
+}
+
+.bot-top-fontsize {
+    display: flex;
+    align-items: center;
+    width: 467px;
+    font-family: MyriadPro-Regular;
+    font-size: 40px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    line-height: 54px;
+    margin-bottom: 25px;
+}
+
+.bot-top-fontsizetwo {
+    display: none;
+}
+
+.bot-top-fontimp {
+    display: flex;
+    align-items: center;
+    width: 429px;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 21px;
+    color: #656C6E;
+    letter-spacing: 0.5px;
+    /* text-align: justify; */
+    line-height: 28px;
+    /* height: 28px; */
+}
+
+.bot-bot-bot {
+    width: 100%;
+    position: relative;
+    height: 220px;
+    display: flex;
+}
+
+.bot-bot-left {
+    width: 991px;
+    height: 357px;
+    background: url(./www_bg_Motorliteconttwo.png) center center no-repeat;
+    background-size: 991px 357px;
+    position: absolute;
+    top: -160px;
+}
+
+.bot-bot-right {
+    width: 235px;
+    opacity: 0.72;
+    font-family: MyriadPro-Regular;
+    font-size: 18px;
+    color: #656C6E;
+    letter-spacing: 0.43px;
+    text-align: left;
+    line-height: 28px;
+    margin-left: 79%;
+    margin-top: 58px;
+}
+
+@media only screen and (min-width: 558px) and (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .motorLite_top_top {
+        width: 100%;
+        height: 615px;
+        margin: 0 auto;
+        background: url(./www_bg_Motorlitebgone.png) center center no-repeat;
+        background-size: 767px 615px;
+        padding-top: 225px;
+        padding-left: 90px;
+    }
+
+    .top_top_fontsize {
+        width: 355px;
+        /* height: 56px; */
+        line-height: 55px;
+        font-family: MyriadPro-Regular;
+        font-size: 40px;
+        color: #4A4A4A;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin: 0px 0px;
+        margin-bottom: 10px;
+    }
+
+    .top_top_fontimp {
+        width: 100%;
+        opacity: 0.72;
+        height: 22px;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #4A4A4A;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .motorLite_top_conten {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+        background: #F4FAFC;
+    }
+
+    .top_conten_top {
+        width: 100%;
+        height: 251px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_MotorLiteOval1.png) center center no-repeat;
+        background-size: 499px 251px;
+        position: absolute;
+        top: 99px;
+        padding-top: 0px;
+    }
+
+    .conten_top_fontsize {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+        /* height: 56px; */
+    }
+
+    .conten_top_fontimp {
+        width: 450px;
+        /* height: 22px; */
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .top_conten_conten {
+        width: 100%;
+        height: 332px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitemotor.png) center center no-repeat;
+        background-size: 592px 332px;
+        position: absolute;
+        top: 217px;
+        z-index: 2;
+    }
+
+    .motorLite_top_bot {
+        width: 100%;
+        height: 700px;
+        background: #5AB2E4;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top_bot_top {
+        width: 100%;
+        height: 270px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_MotorLiteOval2.png) center center no-repeat;
+        background-size: 499px 270px;
+        position: absolute;
+        top: 130px;
+        padding-top: 55px;
+    }
+
+    .bot_top_fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bot_top_fontimp {
+        width: 100%;
+        opacity: 0.85;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .top_bot_bot {
+        width: 100%;
+        height: 576px;
+        position: absolute;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitecontone-en.png) center center no-repeat;
+        background-size: 410px 576px;
+        top: 345px;
+    }
+
+    .motorLite-conten-top {
+        width: 100%;
+        height: 700px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitebgfiv.png) center center no-repeat;
+        background-size: 767px 700px;
+        margin: 0 auto;
+        padding-top: 279px;
+        padding-left: 58%;
+        margin-bottom: 90px;
+    }
+
+    .conten-top-fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .conten-top-fontimp {
+        width: 210px;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    .motorLite-conten-bot {
+        width: 100%;
+        height: 754px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 90px;
+
+    }
+
+    .conten-bot-left {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    .bot-left-fontsize {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bot-left-fontimp {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .conten-bot-right {
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitebgfore.png) center center no-repeat;
+        background-size: 499px 623px;
+        width: 100%;
+        height: 623px;
+    }
+
+    .motorLite-bot-top {
+        width: 100%;
+        height: 777px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 623px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitebgthree.png) center center no-repeat;
+        background-size: 499px 623px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .top-left-fontsizetwo {
+        display: block;
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .top-left-fontsize {
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+        display: none;
+    }
+
+    .top-left-fontimp {
+        width: 400px;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+    .motorLite-bot-bot {
+        width: 100%;
+        height: 927px;
+        margin: 0 auto;
+    }
+
+    .bot-bot-top {
+        width: 100%;
+        height: 700px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorlitebgtwo.png) center center no-repeat;
+        background-size: 767px 700px;
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+
+    .bot-top-fontsize {
+        width: 356px;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bot-top-fontimp {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        /* text-align: justify; */
+        line-height: 22px;
+        width: 374px;
+    }
+
+    .bot-bot-bot {
+        width: 100%;
+        position: relative;
+        height: 227px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot-bot-left {
+        width: 100%;
+        height: 236px;
+        background: url(./TerncyCurtainMotorLite/767/www_bg_Motorliteconttwo.png) center center no-repeat;
+        background-size: 655px 236px;
+        position: absolute;
+        top: -114px;
+        /* left:53px ; */
+    }
+
+    .bot-bot-right {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.43px;
+        text-align: center;
+        line-height: 22px;
+        margin-left: 0px;
+        margin-top: 115px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 558px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .motorLite_top_top {
+        width: 100%;
+        height: 615px;
+        margin: 0 auto;
+        background: url(./www_bg_Motorlitebgone.png) center center no-repeat;
+        background-size: 557px 615px;
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+
+    .top_top_fontsize {
+        width: 340px;
+        /* height: 56px; */
+        font-family: MyriadPro-Regular;
+        font-size: 40px;
+        color: #4A4A4A;
+        text-align: left;
+        letter-spacing: 0.5px;
+        margin: 0 0;
+        margin-bottom: 15px;
+        line-height: 45px;
+    }
+
+    .top_top_fontimp {
+        width: 100%;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        text-align: left;
+        margin: 0 0;
+    }
+
+    .motorLite_top_conten {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+        background: #F4FAFC;
+    }
+
+    .top_conten_top {
+        width: 100%;
+        height: 270px;
+        background: url(./www_bg_MotorLiteOval1.png) center center no-repeat;
+        background-size: 538px 270px;
+        position: absolute;
+        top: 75px;
+        padding-top: 0px;
+    }
+
+    .conten_top_fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        /* height: 35px; */
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .conten_top_fontimp {
+        width: 348px;
+        /* height: 22px; */
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+    .top_conten_conten {
+        width: 100%;
+        height: 415px;
+        background: url(./www_bg_Motorlitemotor1.png) center center no-repeat;
+        background-size: 188px 415px;
+        position: absolute;
+        top: 151px;
+        z-index: 2;
+    }
+
+    .motorLite_top_bot {
+        width: 100%;
+        height: 700px;
+        background: #5AB2E4;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top_bot_top {
+        width: 100%;
+        height: 244px;
+        background: url(./www_bg_MotorLiteOval2.png) center center no-repeat;
+        background-size: 451px 244px;
+        position: absolute;
+        top: 115px;
+        padding-top: 122px;
+    }
+
+    .bot_top_fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        line-height: 35px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .bot_top_fontimp {
+        width: 100%;
+        opacity: 0.85;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .top_bot_bot {
+        width: 100%;
+        height: 576px;
+        position: absolute;
+        background: url(./www_bg_Motorlitecontone-en.png) center center no-repeat;
+        background-size: 410px 576px;
+        top: 343px;
+    }
+
+    .motorLite-conten-top {
+        width: 100%;
+        height: 700px;
+        background: url(./www_bg_Motorlitebgfiv.png) center center no-repeat;
+        background-size: 557px 700px;
+        margin: 0 auto;
+        padding-top: 300px;
+        padding-left: 52%;
+        margin-bottom: 90px;
+    }
+
+    .conten-top-fontsize {
+        width: 87%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .conten-top-fontimp {
+        width: 82%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    .motorLite-conten-bot {
+        width: 100%;
+        height: 775px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 90px;
+
+    }
+
+    .conten-bot-left {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    .bot-left-fontsize {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bot-left-fontimp {
+        width: 82%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .conten-bot-right {
+        background: url(./www_bg_Motorlitebgfore.png) center center no-repeat;
+        background-size: 499px 623px;
+        width: 100%;
+        height: 623px;
+    }
+
+    .motorLite-bot-top {
+        width: 100%;
+        height: 773px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 623px;
+        background: url(./www_bg_Motorlitebgthree.png) center center no-repeat;
+        background-size: 499px 623px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .top-left-fontsizetwo {
+        display: block;
+        width: 352px;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .top-left-fontsize {
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+        display: none;
+    }
+
+    .top-left-fontimp {
+        width: 396px;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+    .motorLite-bot-bot {
+        width: 100%;
+        height: 670px;
+        margin: 0 auto;
+    }
+
+    .bot-bot-top {
+        width: 100%;
+        height: 470px;
+        background: url(./www_bg_Motorlitebgtwo.png) center center no-repeat;
+        background-size: 557px 470px;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+    .bot-top-fontsize {
+        width: 360px;
+        text-align: left;
+        font-family: MyriadPro-Regular;
+        font-size: 30px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bot-top-fontimp {
+        width: 400px;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    .bot-bot-bot {
+        width: 100%;
+        position: relative;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot-bot-left {
+        width: 100%;
+        height: 171px;
+        background: url(./www_bg_Motorliteconttwo.png) center center no-repeat;
+        background-size: 475px 171px;
+        position: absolute;
+        top: -92px;
+        /* left:53px ; */
+    }
+
+    .bot-bot-right {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.36px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+        margin-top: 89px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 415px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .motorLite_top_top {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        background: url(./www_bg_Motorlitebgone.png) center center no-repeat;
+        background-size: 414px 600px;
+        padding-top: 55px;
+        padding-left: 0px;
+    }
+
+    .top_top_fontsize {
+        width: 300px;
+        /* height: 56px; */
+        font-family: MyriadPro-Regular;
+        font-size: 35px;
+        color: #4A4A4A;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .top_top_fontimp {
+        width: 100%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #4A4A4A;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .motorLite_top_conten {
+        width: 100%;
+        height: 489px;
+        margin: 0 auto;
+        position: relative;
+        background: #F4FAFC;
+    }
+
+    .top_conten_top {
+        width: 100%;
+        height: 345px;
+        background: url(./www_bg_MotorLiteOval1.png) center bottom no-repeat;
+        background-size: 380px 192px;
+        position: absolute;
+        top: 93px;
+        padding-top: 0px;
+    }
+
+    .conten_top_fontsize {
+        width: 320px;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .conten_top_fontimp {
+        width: 264px;
+        /* height: 22px; */
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+    .top_conten_conten {
+        width: 100%;
+        height: 415px;
+        background: url(./www_bg_Motorlitemotor1.png) center center no-repeat;
+        background-size: 192px 424px;
+        position: absolute;
+        top: 205px;
+        z-index: 2;
+    }
+
+    .motorLite_top_bot {
+        width: 100%;
+        height: 695px;
+        background: #5AB2E4;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .top_bot_top {
+        width: 100%;
+        height: 187px;
+        background: url(./www_bg_MotorLiteOval2.png) center center no-repeat;
+        background-size: 370px 187px;
+        position: absolute;
+        top: 158px;
+        padding-top: 54px;
+    }
+
+    .bot_top_fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .bot_top_fontimp {
+        width: 100%;
+        opacity: 0.9;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .top_bot_bot {
+        width: 100%;
+        height: 576px;
+        position: absolute;
+        background: url(./www_bg_Motorlitecontone-en.png) center center no-repeat;
+        background-size: 398px 553px;
+        top: 343px;
+    }
+
+    .motorLite-conten-top {
+        width: 100%;
+        height: 530px;
+        background: url(./www_bg_Motorlitebgfiv.png) center center no-repeat;
+        background-size: 414px 530px;
+        margin: 0 auto;
+        padding-top: 186px;
+        padding-left: 37%;
+        margin-bottom: 55px;
+    }
+
+    .conten-top-fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .conten-top-fontimp {
+        width: 241px;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    .motorLite-conten-bot {
+        width: 100%;
+        height: 625px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 55px;
+
+    }
+
+    .conten-bot-left {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 42px;
+        margin-bottom: 40px;
+    }
+
+    .bot-left-fontsize {
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 35px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .bot-left-fontimp {
+        width: 97%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        text-align: left;
+        margin: 0 0;
+    }
+
+    .conten-bot-right {
+        background: url(./www_bg_Motorlitebgfore.png) center center no-repeat;
+        background-size: 414px 497px;
+        width: 100%;
+        height: 497px;
+    }
+
+    .motorLite-bot-top {
+        width: 100%;
+        height: 689px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 497px;
+        background: url(./www_bg_Motorlitebgthree.png) center center no-repeat;
+        background-size: 414px 497px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        padding-left: 42px;
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .top-left-fontsizetwo {
+        display: none;
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .top-left-fontsize {
+        width: 300px;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 35px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .top-left-fontimp {
+        width: 94%;
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        text-align: left;
+        line-height: 22px;
+    }
+
+    .motorLite-bot-bot {
+        width: 100%;
+        height: 651px;
+        margin: 0 auto;
+    }
+
+    .bot-bot-top {
+        width: 100%;
+        height: 497px;
+        background: url(./www_bg_Motorlitebgtwo.png) center center no-repeat;
+        background-size: 414px 497px;
+        padding-top: 75px;
+        padding-left: 32px;
+    }
+
+    .bot-top-fontsize {
+        width: 296px;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .bot-top-fontsizetwo {
+        display: block;
+        width: 100%;
+        font-family: MyriadPro-Regular;
+        font-size: 25px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .bot-top-fontimp {
+        opacity: 0.72;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        width: 94%;
+    }
+
+    .bot-bot-bot {
+        width: 100%;
+        position: relative;
+        height: 154px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot-bot-left {
+        width: 100%;
+        height: 132px;
+        background: url(./www_bg_Motorliteconttwo.png) center center no-repeat;
+        background-size: 366px 132px;
+        position: absolute;
+        top: -65px;
+        /* left:53px ; */
+    }
+
+    .bot-bot-right {
+        /* opacity: 0.72; */
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #656C6E;
+        letter-spacing: 0.36px;
+        text-align: center;
+        line-height: 22px;
+        margin: 0 auto;
+        margin-top: 68px;
+    }
+}

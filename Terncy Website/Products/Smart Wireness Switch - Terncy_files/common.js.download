@@ -1,0 +1,230 @@
+
+
+$(document).ready(function(){
+
+
+//产品下拉菜单 pc
+$(".xy-product-hover").mouseenter(function(){
+			$(".drop-down-menu-product").height("150px").slideDown(300);
+			$(".drop-down-menu-product").css({"border-top":"1px solid rgba(74, 74, 74, 0.20)"})
+		
+		});
+$(".drop-down-menu-product").mouseleave(function(){
+			$(".drop-down-menu-product").slideUp(300);
+			$(".drop-down-menu-product").css({"border-top":"none"})
+	});
+	$(".no-hover").mouseenter(function(){
+		$(".drop-down-menu-product").slideUp(300);
+		$(".drop-down-menu-product").css({"border-top":"none"})
+	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+//移动端菜单下拉
+$(".xy-mobile-menu-line").click(function(){
+	$(this).addClass('animated rotateIn');
+	setTimeout(function(){
+		$(".drop-down-mobile-menu").stop().show(300);
+	},800);
+	
+});
+//移动菜单关闭
+$(".mobile-menu-close").click(function(){
+	$(this).addClass('animated rotateIn');
+	$(".xy-mobile-menu-line").removeClass('animated rotateIn');
+	setTimeout(function(){
+		$(".mobile-menu-close").removeClass('animated rotateIn');
+	},500);
+	setTimeout(function(){
+		$(".drop-down-mobile-menu").stop().hide(300);
+	},800);
+});
+
+//移动端菜单 产品点击事件
+var productFlag = true;
+$(".mobile-menu-list-product").click(function(){
+	if(productFlag == true){
+		productFlag = false;
+		$(".mobile-product").stop(true).show(400);
+		$(".mobile-menu-list-product").css("border-bottom","0");
+		$(".product-line").stop(true).show();
+	}else{
+		productFlag = true;
+		$(".mobile-product").stop(true).hide(400);
+		$(".mobile-menu-list-product").css("border-bottom","1px solid rgba(74,74,74,0.20)");
+		$(".product-line").stop(true).hide();
+	}
+});
+
+
+//底部菜单 下拉效果
+$(".footer-jia").click(function(){
+	$(this).parent().siblings().children(".footer-nav-li-item").stop(true).show(400);
+	$(this).hide();
+	$(this).siblings(".footer-cha").show();
+});
+//底部菜单 收回效果
+$(".footer-cha").click(function(){
+	$(this).hide();
+	$(this).parent().siblings().children(".footer-nav-li-item").stop(true).hide(400);
+	
+	$(this).siblings(".footer-jia").show();
+});
+
+
+// if (window.screen.width === 768) {
+// 	$(".footer-jia").click(function(){
+// 		$(this).parent().siblings().children(".footer-nav-li-item").stop(true).show(400);
+// 		$(this).attr("style", "display: none !important");
+// 		$(this).siblings(".footer-cha").attr("style", "display: block !important");
+// 	});
+
+// 	$(".footer-cha").click(function(){
+// 		$(this).parent().siblings().children(".footer-nav-li-item").stop(true).hide(400);
+// 		$(this).hide();
+// 		$(this).siblings(".footer-jia").show();
+// 	});
+// }
+
+
+
+//产品安装视频
+$(".watching-video").click(function(){
+	$(".zhezhao").show();
+	$("video").show();
+	// console.log("???hahah ");
+});
+$(".video-close").click(function(){
+	$(".zhezhao").hide();
+	$("video").hide();
+	$(".player-video").hide();
+});
+
+
+
+
+
+// $(".product-homecenter-box").hover(function(){
+// 	$(".line-icon-product-homecenter").attr("src","../../assets/img/xy_line_homecenter_blue.png");
+// },function(){
+// 	$(".line-icon-product-homecenter").attr("src","../../assets/img/xy_line_homecenter.png");
+// });
+
+// $(".product-awarness-switch-box").hover(function(){
+// 	$(".line-icon-product-awarness-switch").attr("src","../../assets/img/xy_line_awarness_switch_blue.png");
+// },function(){
+// 	$(".line-icon-product-awarness-switch").attr("src","../../assets/img/xy_line_awarness_switch.png");
+// });
+
+
+// $(".product-smart-plug-box").hover(function(){
+// 	$(".line-icon-product-smart-plug").attr("src","../../assets/img/xy_line_smart_plug_blue.png");
+// },function(){
+// 	$(".line-icon-product-smart-plug").attr("src","../../assets/img/xy_line_smart_plug.png");
+// });
+
+
+// $(".product-smart-light-socket-box").hover(function(){
+// 	$(".line-icon-product-smart-light-socket").attr("src","../../assets/img/xy_line_smart_light_socket_blue.png");
+// },function(){
+// 	$(".line-icon-product-smart-light-socket").attr("src","../../assets/img/xy_line_smart_light_socket.png");
+// });
+
+// $(".product-door-sensor-box").hover(function(){
+// 	$(".line-icon-product-door-sensor").attr("src","../../assets/img/xy_line_door_sensor_blue.png");
+// },function(){
+// 	$(".line-icon-product-door-sensor").attr("src","../../assets/img/xy_line_door_sensor.png");
+// });
+
+
+// $(".product-wall-switch-with-box").hover(function(){
+// 	$(this).children(".line-icon-product-wall-switch").attr("src","../../assets/img/xy_line_wall_switch_no_wire_blue.png");
+// },function(){
+// 	$(this).children(".line-icon-product-wall-switch").attr("src","../../assets/img/xy_line_wall_switch_no_wire.png");
+// });
+
+
+
+// $(".product-wall-switch-without-box").hover(function(){
+// 	$(this).children(".line-icon-product-wall-switch").attr("src","../../assets/img/xy_line_wall_switch_no_wire_blue.png");
+// },function(){
+// 	$(this).children(".line-icon-product-wall-switch").attr("src","../../assets/img/xy_line_wall_switch_no_wire.png");
+// });
+
+
+
+// $(".product-curtain-moto-box").hover(function(){
+// 	$(".line-icon-product-curtain-motor").attr("src","../../assets/img/xxy_line_curtain_motor_blue.png");
+// },function(){
+// 	$(".line-icon-product-curtain-motor").attr("src","../../assets/img/xy_line_curtain_motor.png");
+// });
+
+// $(".product-curtain-dolo-box").hover(function(){
+// 	$(".line-icon-product-curtain-dolo").attr("src","../../assets/img/www_icon_doorlockblue.png");
+// },function(){
+// 	$(".line-icon-product-curtain-dolo").attr("src","../../assets/img/www_icon_doorlock.png");
+// });
+
+//下载页
+// $(".xy-app-iphone").hover(function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_iphone_chinese_white.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_iphone_english_white.png");
+// 	}
+// },function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_iphone_chinese.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_iphone_english.png");
+// 	}
+// });
+
+// $(".xy-app-android").hover(function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_android_chinese_white.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_android_english_white.png");
+// 	}
+// },function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_android_chinese.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_android_english.png");
+// 	}
+// });
+
+// $(".xy-app-wechat").hover(function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_wechat_chinese_white.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_wechat_english_white.png");
+// 	}
+// },function(){
+// 	if($(this).children("a").children("img").hasClass("zh")){
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_wechat_chinese.png");
+// 	}else{
+// 		$(this).children("a").children("img").attr("src","../../assets/img/xy_download_wechat_english.png");
+// 	}
+// });
+
+});
+
+// img emerge when mouse placed 
+
+

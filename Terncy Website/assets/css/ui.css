@@ -1,0 +1,227 @@
+/***************************************/
+/*************FOOTER*******************/
+/***************************************/
+
+.xy-footer{
+
+ background-image: url("../img/watermark/whatif_matter_footerwatermark2.png"),linear-gradient(0deg, rgba(21,34,53,1) 0%, rgba(17,48,61,1) 100%);
+ height: 310px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+
+    
+}
+
+
+/* .xy-footer{
+    background-image: url('../img/watermark');
+    background-position: bottom center;
+    background-size: contain;
+    background: #3d4349;
+
+}
+ */
+
+
+
+.footer-nav{
+    width: 1000px;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 414px) {
+    .footer-nav {
+        width: 100%;
+        
+    }
+
+    .footer-nav-li-item-first {
+        font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif, "Poppins";/*Chg yr font type here*/
+        border-bottom: 1px solid #dbdada63;
+        font-weight:bold;
+
+    }
+
+    body{
+        margin-top:60px;
+    }
+
+
+    .xy-nav{
+        /* width:130vw; */
+        width:100%!important;
+        top:0;
+
+        
+    }
+
+
+
+      .xy-footer{
+        background-image: url("../img/watermark/whatif_matter_footerwatermark_mobile.png"),linear-gradient(0deg, rgba(21,34,53,1) 0%, rgba(17,48,61,1) 100%);
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: auto; /* You must set a specified height */
+     
+      }
+
+
+
+}
+@media only screen and (min-width: 415px) and (max-width: 768px){
+     .footer-nav {
+        width: 100%;
+    }
+
+    .footer-nav-li-item-first {
+        font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, "Poppins";/*Chg yr font type here*/
+        border-bottom: 1px solid #dbdada63;
+        font-weight:bold;
+   
+    }
+
+    .xy-nav{
+        /* width:100vw; */
+        width:100%!important;
+    }
+
+    	/*edit logo size*/
+			.xy-logoWhatIF {
+				height: 28px;
+				width: 95px;
+				display: block;
+				margin-left: 40px;
+	
+	}
+
+   
+    .xy-footer{
+        background-image: url("../img/watermark/whatif_matter_footerwatermark_mobile.png"),linear-gradient(0deg, rgba(21,34,53,1) 0%, rgba(17,48,61,1) 100%);
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: auto; /* You must set a specified height */
+     
+      }
+
+    
+}
+
+.footer-nav-li-item-first{
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif , "Poppins";/*Chg yr font type here*/
+    font-size: 11px;
+    color: #dbdada;
+    font-weight:bold;
+    font-size:13px;
+    
+}
+
+.footer-nav-li-item{
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, "Poppins";/*Chg yr font type here*/
+    font-size: 11px;
+    color: #dbdada;
+
+}
+
+
+.footer-copyright{
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, "Poppins";
+    color: #dbdada;
+    margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0.1vh;
+  }
+  
+
+
+/***************************************/
+/*************TOP MENU*******************/
+/***************************************/
+
+.xy-nav{
+    position:fixed;
+    z-index:1000;
+    width:1300px; 
+    background: #fff;  
+    margin-top:0px;
+    /* width:90%; */
+    /* width:1300px; */
+    /* width:1280px;  */
+    /* background: #fff; */
+    /* margin-top:0px; */
+}
+
+
+.xy-logo{
+    height: 45px;
+	width: 150px;
+	display: block;
+	margin-left: 40px;
+}
+    
+
+
+
+
+
+
+
+/*Changes make in: html file as the content alignment is different in some pages*/
+/*
+1. Application page (Terncy App.html). 
+   line - 22. Added  <div class="xy-nav" style="width:1290px;">.
+
+2. Contact us page (Contact Terncy.html). 
+   line - 25. Added <div class="xy-nav" style="width:1300px;">.
+
+3. About us page (About Terncy.html). 
+   line - 22. Added <div class="xy-nav" style="width:1300px;">.
+
+4. Product
+        - No Neutral Wire Smart Wall Switch - Terncy.html. 
+          line 19. Added  <div class="xy-nav" style="width:1290px;">. 
+
+
+        - Smart Curtain Motor - Terncy.html. 
+        line 19. Added  <div class="xy-nav" style="width:1290px;">.
+        line 50. Comment the <!-- <div class="drop-down-menu-product" style="height: 335px; border-top: 1px solid rgba(74, 74, 74, 0.2);"><div class="xy-product-item"> -->
+                 Replace. <div class="drop-down-menu-product"  style="border-top: none; display: none;"><div class="xy-product-item">
+
+
+        - Smart Curtrain Motor AIR - Terncy.html. 
+        line 20. Added  <div class="xy-nav" style="width:1290px;">.
+        line 50. Comment the <!-- <div class="drop-down-menu-product" style="height: 335px; border-top: 1px solid rgba(74, 74, 74, 0.2);"><div class="xy-product-item"> -->
+                 Replace. <div class="drop-down-menu-product"  style="border-top: none; display: none;"><div class="xy-product-item">
+
+
+        - Smart Dial - Terncy.html. 
+        line 20. Added  <div class="xy-nav" style="width:1290px;">.
+        line 52. Comment the <!-- <div class="drop-down-menu-product" style="height: 335px; border-top: 1px solid rgba(74, 74, 74, 0.2);"><div class="xy-product-item"> -->
+                 Replace. <div class="drop-down-menu-product"  style="border-top: none; display: none;"><div class="xy-product-item">
+
+        - Smart Door Sensor - Terncy.html. 
+        line 21. Added  <div class="xy-nav" style="width:1290px;">.
+
+
+        - Smart Switch Module 2 Gang - Terncy.html. 
+        line 20. Added  <div class="xy-nav" style="width:1290px;">.
+        Line 25. Comment the <!-- <div class="drop-down-menu-product" style="height: 335px; border-top: 1px solid rgba(74, 74, 74, 0.2);"><div class="xy-product-item"> -->
+                 Replace. <div class="drop-down-menu-product"  style="border-top: none; display: none;"><div class="xy-product-item">
+
+        - Smart Wireness Switch - Terncy.html. 
+        line 24. Added  <div class="xy-nav" style="width:1290px;">.
+
+5. index.html and index_no_loader.html. 
+   line 34. Comment <!-- <link type="text/css" href="assets/css/neumorphism.css" rel="stylesheet"> -->
+
+
+6. Add one more Javascript into each pages for logo change after scrolling down.
+*/

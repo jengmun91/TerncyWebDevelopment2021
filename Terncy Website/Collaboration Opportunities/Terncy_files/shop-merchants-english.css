@@ -1,0 +1,1420 @@
+body {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+input {
+	-webkit-appearance: none;
+}
+
+.width-all {
+	width: 100%;
+}
+
+/*购买页--------------------------------------------------------------------------------购买页*/
+.purchase-channel {
+	max-width: 1300px;
+	background: #fff;
+}
+
+.purchase-channel-nav {
+	height: 70px;
+	width: 100%;
+}
+
+.purchase-channel-logo {
+	margin: 10px 0 0 30px;
+	display: block;
+	height: 50px;
+	width: 30.36px;
+}
+
+
+.nav-cart {
+	opacity: 0.73;
+	font-size: 22px;
+	color: #656C6E;
+	float: right;
+	margin: 22px 56px 0 30px;
+	font-weight: 600;
+}
+
+.xiaoyan-nav {
+	height: 70px;
+}
+
+.xiaoyan-nav li {
+	height: 100%;
+	line-height: 70px;
+}
+
+.xiaoyan-nav li .menu-item {
+	line-height: 70px;
+	font-family: MyriadPro-Regular;
+	/*margin-left: 34px;*/
+}
+
+/*.checklanguage {
+	padding-top: 3px;
+}*/
+
+.purchase-channel-top-part {
+	height: 500px;
+	width: 100%;
+	background: url(./purchase_channel_top_bg.png) no-repeat center center;
+	background-size: 1300px 100%;
+	padding-top: 211px;
+}
+
+.purchase-channel-bt {
+	width: 100%;
+	text-align: center;
+	line-height: 48px;
+	font-family: MyriadPro-Semibold;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.purchase-channel-text {
+	margin-top: 15px;
+	line-height: 27px;
+	width: 100%;
+	text-align: center;
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 0.75px;
+}
+
+.purchase-channel-item {
+	height: 1100px;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.purchase-channel-all-icon {
+	height: auto;
+	width: 100%;
+	/*padding-top: 52px;*/
+	padding: 52px 139px 0;
+}
+
+.all-icon-item {
+	height: 246px;
+}
+
+.all-icon-item-img {
+	height: 186px;
+	width: 186px;
+	display: block;
+	margin: 0 auto;
+}
+
+.img-amazon {
+	height: 186px;
+	width: 186px;
+}
+
+.all-icon-item-name {
+	color: #7A848C;
+	width: 100%;
+	text-align: center;
+	margin-top: 29px;
+	line-height: 23px;
+}
+
+.all-icon-item-name a {
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #959DA3;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.get-help-understand-product {
+	height: 398px;
+	width: 90%;
+	margin: 0 auto 30px;
+}
+
+.understand-product-img {
+	background: url(./understand_product_img.png) no-repeat center center;
+	background-size: 590px 398px;
+	height: 398px;
+	width: 50%;
+	float: none;
+}
+
+.get-help-img {
+	background: url(./get_help_img.png) no-repeat center center;
+	background-size: 590px 398px;
+	height: 398px;
+	float: none;
+	width: 50%;
+}
+
+.understand-product-img-content,
+.get-help-img-content {
+	height: 398px;
+	background: #F5F7F9;
+	padding-left: 76px;
+	padding-top: 109px;
+	width: 50%;
+	float: right;
+}
+
+.understand-product-bt {
+	font-family: MyriadPro-Semibold;
+	font-size: 25px;
+	color: #7B838A;
+	letter-spacing: 0.85px;
+	line-height: 26px;
+}
+
+.understand-product-text {
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #7B838A;
+	line-height: 32px;
+	margin-top: 15px;
+	width: 70%;
+}
+
+.understand-product-btn {
+	border: 1px solid #7B838A;
+	border-radius: 5px;
+	height: 40px;
+	width: 120px;
+	color: #7B838A;
+	line-height: 40px;
+	text-align: center;
+	font-family: MyriadPro-Regular;
+	margin-top: 35px;
+}
+
+.understand-product-btn:hover {
+	background: #b8bdce;
+	border: none;
+	color: #fff;
+}
+
+.zhezhao {
+	height: 195px;
+	width: 195px;
+	left: 89px;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	line-height: 195px;
+}
+
+.shop-from-apple {
+	font-size: 25px;
+	color: #7A848C;
+	font-family: MyriadPro-Semibold;
+	letter-spacing: 0;
+	line-height: 30px;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	height: 30px;
+	float: left;
+}
+
+.xiaoyan-apple {
+	font-size: 22px;
+	color: #959DA3;
+	letter-spacing: 0;
+	line-height: 27px;
+	width: 100%;
+	text-align: center;
+	font-family: MyriadPro-Regular;
+	margin-top: 10px;
+	margin-bottom: 53px;
+	height: 27px;
+	float: left;
+}
+
+.kong {
+	display: none;
+}
+
+/*招商页--------------------------------------------------------------------------------招商页*/
+.partner-top {
+	height: 500px;
+	width: 100%;
+	padding-top: 211px;
+	background: url(./pantner_top_img.png) no-repeat left center;
+	background-size: 1300px 500px;
+}
+
+.partner-bt {
+	font-family: MyriadPro-Semibold;
+	font-size: 40px;
+	color: #FFFFFF;
+	line-height: 48px;
+	letter-spacing: 0;
+}
+
+.partner-text {
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 0.75px;
+	line-height: 27px;
+	margin-top: 15px;
+}
+
+.center-character {
+	width: 100%;
+	text-align: center;
+}
+
+.partner-product {
+	width: 100%;
+	height: auto;
+	background: #F5F7F9;
+	padding: 65px 0 70px;
+}
+
+.partner-product-text {
+	width: 68%;
+	margin: 0 auto;
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #959DA3;
+	letter-spacing: 0.3px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.sub-information {
+	height: auto;
+	padding: 70px 0 89.7px;
+	background: #fff;
+	position: relative;
+}
+
+.sub-information-text {
+	margin-bottom: 53px;
+	height: 56px;
+	width: 100%;
+	text-align: center;
+}
+
+.information-error {
+	font-family: MyriadPro-Regular;
+	font-size: 16px;
+	color: #D0011B;
+	line-height: 19px;
+	position: absolute;
+	bottom: 181px;
+	left: 27%;
+	display: none;
+}
+
+.sub-text-pc {
+	font-family: MyriadPro-Semibold;
+	font-size: 25px;
+	color: #7A848C;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+.sub-information-name {
+	width: 46%;
+	margin: 0 auto;
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #959DA3;
+}
+
+.sub-information-value {
+	height: 40px;
+	width: 46%;
+	padding-left: 10px;
+	margin: 9px auto 22px;
+	opacity: 0.5;
+	border: 1px solid #979797;
+	border-radius: 2px;
+	display: block;
+	font-family: MyriadPro-Regular;
+	font-size: 22px;
+	color: #959DA3;
+	box-shadow: none;
+	outline: none;
+}
+
+.sub-information-more {
+	padding-left: 10px;
+	height: 200px;
+	width: 46%;
+	margin: 9px auto 22px;
+	opacity: 0.5;
+	border: 1px solid #979797;
+	outline: none;
+	border-radius: 2px;
+	display: block;
+	overflow-y: scroll;
+}
+
+.sub-information-btn {
+	background: #609FF9;
+	border-radius: 5px;
+	width: 227.5px;
+	height: 55.3px;
+	line-height: 55.3px;
+	text-align: center;
+	margin-left: 26.9%;
+	margin-top: 65px;
+	font-family: MyriadPro-Semibold;
+	font-size: 25px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+/*信息提交成功--------------------------------------------------------------------------------信息提交成功*/
+.xy-information-sub {
+	height: 500px;
+	background: #F5F7F9;
+	padding-top: 135px;
+}
+
+.xy-information-sub-img-f {
+	background: url(./xy_information_sub_img_f.png) no-repeat center center;
+	background-size: 88px 88px;
+	height: 88px;
+	width: 88px;
+
+}
+
+.xy-information-sub-img-s {
+	background: url(./xy_information_sub_img_s.png) no-repeat center center;
+	background-size: 88px 88px;
+	height: 88px;
+	width: 88px;
+	margin: 0 auto;
+}
+
+.xy-information-sub-bt {
+	font-family: MyriadPro-Semibold;
+	font-size: 25px;
+	color: #656C6E;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 34px;
+	width: 100%;
+}
+
+.xy-information-sub-text {
+	font-family: MyriadPro-Regular;
+	font-size: 18px;
+	color: #959DA3;
+	text-align: center;
+	margin: 15px auto 0;
+	width: 273px;
+}
+
+/* submit info */
+.errorTip {
+	display: none;
+	font-family: MyriadPro-Regular;
+	font-size: 20px;
+	color: #D0021B;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+
+	padding-top: 0%;
+	padding-left: 27%;
+}
+
+button {
+	outline: none;
+}
+
+.successTip {
+	display: none;
+	font-family: MyriadPro-Regular;
+	font-size: 20px;
+	color: #656C6E;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+
+	padding-top: 0%;
+	padding-left: 27%;
+}
+
+@media only screen and (min-width: 558px) and (max-width: 768px) {
+	html {
+		overflow: hidden;
+		overflow-y: auto;
+	}
+
+	.nav-cart {
+		margin: 0 30px 0 30px;
+		font-size: 29px;
+		font-weight: 200;
+		line-height: 70px;
+	}
+
+	.menu {
+		padding: 26px 0 0 30px;
+	}
+
+	/*新导航--------------------------------------------------------------------------------新导航*/
+	/*.purchase-channel-nav{
+		height: 70px;
+	}
+	
+	.purchase-channel-logo {
+	    margin: 8px 0 0 30px;
+	    display: block;
+	    height: 55px;
+	    width: 35.75px;
+	}
+	
+	.check-language {
+		font-size: 37px;
+		display: block;
+		line-height: 53px;
+	}
+	.menulogo img {
+		margin: 7px auto 0;
+	}
+	.kong {
+		display: block;
+	}*/
+	/*购买页--------------------------------------------------------------------------------购买页*/
+	.purchase-channel-top-part {
+		height: 500px;
+		background: url(./purchase_channel_top_bg_768.png) no-repeat center center;
+		background-size: 768px 100%;
+		padding-top: 211px;
+	}
+
+	.purchase-channel-bt {
+		font-family: MyriadPro-Semibold;
+		font-size: 40px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		line-height: 48px;
+	}
+
+	.purchase-channel-text {
+		margin-top: 15px;
+		line-height: 27px;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #FFFFFF;
+		letter-spacing: 0.75px;
+	}
+
+	.purchase-channel-item {
+		height: 1310px;
+		padding-top: 70px;
+	}
+
+	.shop-from-apple {
+		line-height: 30px;
+		/*margin-top: 70px;*/
+		height: 30px;
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #7A848C;
+		letter-spacing: 0;
+	}
+
+	.shop-from-apple-two {
+		margin-top: 70px;
+	}
+
+	.xiaoyan-apple {
+		width: 100%;
+		text-align: center;
+		line-height: 27px;
+		margin: 10px 0 53px 0;
+		height: auto;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #959DA3;
+		letter-spacing: 0;
+	}
+
+	.purchase-channel-all-icon {
+		height: auto;
+		padding: 0 46px;
+	}
+
+	.all-icon-item {
+		height: 232px;
+		width: 50%;
+	}
+
+	.all-icon-item-img {
+		height: 186px;
+		width: 186px;
+	}
+
+	.all-icon-item-name {
+		margin-top: 26px;
+	}
+
+	.all-icon-item-name a {
+		line-height: 27px;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #959DA3;
+		letter-spacing: 0;
+	}
+
+	.amazom-item {
+		margin-top: 71px;
+	}
+
+	.apple-store-text {
+		width: 390px;
+		margin: 3px auto 53px;
+		float: none;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #959DA3;
+		letter-spacing: 0;
+		line-height: 29px;
+	}
+
+	.get-help-understand-product {
+		height: 931px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.understand-product-img-content,
+	.get-help-img-content {
+		height: 398px;
+		padding: 112px 0 0;
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.understand-product-btn {
+		margin: 41px auto 0;
+		width: 120px;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #7B838A;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	/*.understand-product-img,
+	.get-help-img {
+		width: 100%;
+		height: 518px;
+		float: none;
+	}*/
+	.understand-product-img {
+		background: url(./understand_product_img.png) no-repeat center center;
+		background-size: 768px 100%;
+		height: 518px;
+		float: none;
+		width: 100%;
+	}
+
+	.get-help-img {
+		background: url(./get_help_img.png) no-repeat center center;
+		background-size: 768px 100%;
+		height: 518px;
+		float: none;
+		width: 100%;
+	}
+
+	.understand-product-bt {
+		width: 100%;
+		text-align: center;
+		line-height: 30px;
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #7B838A;
+		letter-spacing: 0;
+	}
+
+	.understand-product-text {
+		width: 410px;
+		text-align: center;
+		line-height: 32px;
+		margin: 7px auto 0;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #7B838A;
+		line-height: 32px;
+	}
+
+	/*招商页--------------------------------------------------------------------------------招商页*/
+	.partner-top {
+		width: 100%;
+		height: 500px;
+		padding-top: 211px;
+		background: url(./pantner_top_img.png)no-repeat center center;
+		background-size: 768px 100%;
+	}
+
+	.partner-bt {
+		font-family: MyriadPro-Semibold;
+		font-size: 40px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		line-height: 48px;
+	}
+
+	.partner-text {
+		line-height: 27px;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #FFFFFF;
+		letter-spacing: 0.75px;
+		margin-top: 15px;
+	}
+
+	.partner-product {
+		padding: 65px 0 70px;
+	}
+
+	.partner-product-text {
+		width: 67.7%;
+		text-align: center;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #959DA3;
+		letter-spacing: 0;
+		line-height: 26px;
+	}
+
+	.sub-information-text {
+		height: 56px;
+		margin-bottom: 53px;
+	}
+
+	.sub-text-pc {
+		height: 56px;
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #7A848C;
+		letter-spacing: 0;
+		line-height: 28px;
+	}
+
+	.sub-information {
+		padding: 65px 0 89.7px;
+	}
+
+	.information-error {
+		font-family: MyriadPro-Regular;
+		font-size: 16px;
+		color: #D0011B;
+		line-height: 19px;
+		position: absolute;
+		bottom: 180px;
+		left: 15%;
+		display: none;
+	}
+
+	.sub-information-name {
+		width: 69%;
+		line-height: 27px;
+		font-family: MyriadPro-Regular;
+		font-size: 22px;
+		color: #959DA3;
+	}
+
+	.sub-information-value {
+		height: 40px;
+		width: 69%;
+		margin: 6px auto 24px;
+		font-size: 22px;
+	}
+
+	.sub-information-more {
+		height: 200px;
+		width: 69%;
+		margin: 6px auto 0;
+	}
+
+	.sub-information-btn {
+		background: #609FF9;
+		border-radius: 5px;
+		width: 227px;
+		height: 55px;
+		line-height: 55px;
+		text-align: center;
+		margin: 66px 0 0 16%;
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+	}
+
+	.errorTip {
+		padding-left: 16%;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 557px) {
+	html {
+		overflow: hidden;
+		overflow-y: auto;
+	}
+
+	/*新导航--------------------------------------------------------------------------------新导航*/
+	.purchase-channel-nav {
+		height: 54px;
+	}
+
+	.menu {
+		padding: 20px 0 0 30px;
+	}
+
+	.purchase-channel-logo {
+		margin: 7px auto 0;
+		height: 41.3px;
+		width: 27.2px;
+	}
+
+	.nav-cart {
+		margin: 0 30px 0 0;
+		font-size: 23px;
+		font-weight: 200;
+		line-height: 54px;
+	}
+
+	.check-language {
+		font-size: 37px;
+		display: block;
+		line-height: 53px;
+	}
+
+	.menulogo img {
+		margin: 7px auto 0;
+	}
+
+	.kong {
+		display: block;
+	}
+
+	/*购买页--------------------------------------------------------------------------------购买页*/
+	.purchase-channel-top-part {
+		height: 338.7px;
+		background: url(./purchase_channel_top_bg_557.png) no-repeat center center;
+		background-size: 557px 100%;
+		padding-top: 130px;
+	}
+
+	.purchase-channel-bt {
+		line-height: 35px;
+		font-family: MyriadPro-Semibold;
+		font-size: 30px;
+		color: #FFFFFF;
+		line-height: 35px;
+	}
+
+	.purchase-channel-text {
+		margin-top: 9.5px;
+		font-family: MyriadPro-Regular;
+		font-size: 17px;
+		color: rgba(255, 255, 255, 0.80);
+		line-height: 22px;
+	}
+
+	.purchase-channel-item {
+		height: 800px;
+		padding-top: 0;
+	}
+
+	.shop-from-apple {
+		/*margin-top: 58px;*/
+		height: 22px;
+		float: none;
+		font-family: MyriadPro-Semibold;
+		font-size: 22px;
+		color: #959DA3;
+		line-height: 22px;
+	}
+
+	.xiaoyan-apple {
+		width: 100%;
+		text-align: center;
+		margin: 10px auto 62px;
+		height: auto;
+		float: none;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 20px;
+	}
+
+	.apple-store-text {
+		width: 315px;
+	}
+
+	.purchase-channel-all-icon {
+		height: auto;
+		padding: 0 23px;
+	}
+
+	.all-icon-item {
+		height: 203px;
+	}
+
+	.all-icon-item-img {
+		height: 160px;
+		width: 160px;
+	}
+
+	.all-icon-item-name {
+		margin-top: 21.2px;
+	}
+
+	.all-icon-item-name a {
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+		letter-spacing: 0;
+		line-height: 20px;
+
+	}
+
+	.amazom-item {
+		margin-top: 61.8px;
+	}
+
+	.shop-from-apple-two {
+		margin-top: 109.3px;
+	}
+
+	.get-help-understand-product {
+		height: auto;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.understand-product-img-content,
+	.get-help-img-content {
+		height: 296px;
+		padding: 63px 0 0;
+		float: none;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+
+	.understand-product-btn {
+		margin: 50.5px auto 0;
+	}
+
+	/*.understand-product-img,
+	.get-help-img {
+		width: 100%;
+		height: auto;
+		float: none;
+	}*/
+	.understand-product-img {
+		background: url(./understand_product_img.png) no-repeat center center;
+		background-size: 557px 100%;
+		height: 401px;
+		float: none;
+		width: 100%;
+	}
+
+	.get-help-img {
+		background: url(./get_help_img.png) no-repeat center center;
+		background-size: 557px 100%;
+		height: 401px;
+		float: none;
+		width: 100%;
+	}
+
+	.understand-product-bt {
+		width: 100%;
+		text-align: center;
+		font-family: MyriadPro-Semibold;
+		font-size: 22px;
+		color: #959DA3;
+		line-height: 22px;
+	}
+
+	.understand-product-text {
+		width: 307px;
+		text-align: center;
+		margin: 7.5px auto 0;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 25px;
+		margin-top: 7px;
+	}
+
+	.get-help-img-content .understand-product-text {
+		width: 307px;
+		text-align: center;
+	}
+
+	/*招商页--------------------------------------------------------------------------------招商页*/
+	.partner-top {
+		width: 100%;
+		height: 338.7px;
+		padding-top: 130.9px;
+		background: url(./pantner_top_img_557.png) no-repeat center center;
+		background-size: 557px 100%;
+	}
+
+	.partner-bt {
+		letter-spacing: 0;
+		font-family: MyriadPro-Semibold;
+		font-size: 30px;
+		color: #FFFFFF;
+		line-height: 35px;
+	}
+
+	.partner-text {
+		letter-spacing: 0;
+		line-height: 22px;
+		font-family: MyriadPro-Regular;
+		font-size: 17px;
+		color: rgba(255, 255, 255, 0.80);
+		line-height: 22px;
+		margin-top: 9.5;
+	}
+
+	.partner-product {
+		padding: 63px 0 72px;
+	}
+
+	.partner-product-text {
+		letter-spacing: 0;
+		width: 73.7%;
+		text-align: center;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 25px;
+	}
+
+	.sub-information-text {
+		height: 57px;
+		margin-bottom: 25px;
+	}
+
+	.sub-text-pc {
+		letter-spacing: 0;
+		height: 44px;
+		font-family: MyriadPro-Semibold;
+		font-size: 22px;
+		color: #7A848C;
+		line-height: 22px;
+		margin-bottom: 47px;
+	}
+
+	.sub-information {
+		padding: 63px 0 60.5px;
+	}
+
+	.information-error {
+		font-family: MyriadPro-Regular;
+		font-size: 14px;
+		color: #D0011B;
+		line-height: 18px;
+		position: absolute;
+		bottom: 125.5px;
+		left: 15%;
+		display: none;
+	}
+
+	.sub-information-name {
+		width: 69%;
+		line-height: 23px;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+	}
+
+	.sub-information-value {
+		height: 40px;
+		width: 69%;
+		margin: 5px auto 15px;
+		font-size: 22px;
+	}
+
+	.sub-information-more {
+		height: 145px;
+		width: 69%;
+		margin: 5px auto 0;
+	}
+
+	.sub-information-btn {
+		background: #609FF9;
+		border-radius: 5px;
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 50px 0 0 16%;
+		font-family: MyriadPro-Semibold;
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+	}
+
+	.errorTip {
+		padding-left: 16%;
+	}
+}
+
+/*媒体查询--------------------------------------------------------------------------------媒体查询*/
+@media only screen and (min-width: 100px) and (max-width: 414px) {
+	html {
+		overflow: hidden;
+		overflow-y: auto;
+	}
+
+	/*新导航--------------------------------------------------------------------------------新导航*/
+	.purchase-channel-nav {
+		height: 54px;
+	}
+
+	.menu {
+		padding: 20px 0 0 30px;
+	}
+
+	.purchase-channel-logo {
+		margin: 7px auto 0;
+		height: 41.3px;
+		width: 27.2px;
+	}
+
+	.nav-cart {
+		margin: 0 30px 0 0;
+		font-size: 23px;
+		font-weight: 200;
+		line-height: 54px;
+	}
+
+	.check-language {
+		font-size: 37px;
+		display: block;
+		line-height: 53px;
+	}
+
+	.menulogo img {
+		margin: 7px auto 0;
+	}
+
+	/*购买页--------------------------------------------------------------------------------购买页*/
+	.purchase-channel-top-part {
+		height: 228px;
+		background: url(../../assets/img/purchase_channel_top_bg_375.png) no-repeat center center;
+		background-size: 414px 228px;
+		padding-top: 78px;
+	}
+
+	.purchase-channel-bt {
+		letter-spacing: 0;
+		line-height: 35px;
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 35px;
+	}
+
+	.purchase-channel-text {
+		letter-spacing: 0;
+		margin-top: 0;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: rgba(255, 255, 255, 0.80);
+		line-height: 22px;
+	}
+
+	.purchase-channel-item {
+		height: 700px;
+		padding-top: 35px;
+	}
+
+	.shop-from-apple {
+		letter-spacing: 0;
+		/*margin-top: 45.7px;*/
+		height: 22px;
+		font-family: MyriadPro-Semibold;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 22px;
+	}
+
+	.xiaoyan-apple {
+		width: 261px;
+		margin: 7px auto 30px;
+		height: auto;
+		font-family: MyriadPro-Regular;
+		font-size: 16px;
+		color: #959DA3;
+		line-height: 19.5px;
+		float: none;
+	}
+
+	.xy-apple-special {
+		width: 225px;
+		margin: 7px auto 30px;
+		float: none;
+	}
+
+	.purchase-channel-all-icon {
+		/*height: 675.4px;*/
+		/*padding-top: 0;*/
+		padding: 0 16px;
+	}
+
+	.all-icon-item {
+		height: auto;
+	}
+
+	.all-icon-item-img {
+		height: 108.1px;
+		width: 108.1px;
+	}
+
+	.all-icon-item-name {
+		margin-top: 17px;
+	}
+
+	.all-icon-item-name a {
+		line-height: 19px;
+		font-family: MyriadPro-Regular;
+		font-size: 16px;
+		color: #959DA3;
+		letter-spacing: 0;
+	}
+
+	.amazom-item {
+		margin-top: 36.5px;
+	}
+
+	.get-help-understand-product {
+		height: 498px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.understand-product-img-content,
+	.get-help-img-content {
+		height: 228px;
+		padding: 40px 0 0;
+		width: 100%;
+		float: none;
+	}
+
+	.understand-product-btn {
+		margin: 30px auto 0;
+		font-family: MyriadPro-Semibold;
+		font-size: 16px;
+		color: #7B838A;
+		line-height: 40px;
+	}
+
+	/*.understand-product-img,
+	.get-help-img {
+		width: 100%;
+		height: 270px;
+		float: none;
+	}*/
+	.shop-from-apple-two {
+		margin-top: 45.3px;
+	}
+
+	.understand-product-img {
+		background: url(./understand_product_img.png) no-repeat center center;
+		background-size: 414px 270px;
+		height: 270px;
+		width: 100%;
+		float: none;
+	}
+
+	.get-help-img {
+		background: url(./get_help_img.png) no-repeat center center;
+		background-size: 414px 270px;
+		height: 270px;
+		float: none;
+		width: 100%;
+	}
+
+	.understand-product-bt {
+		width: 100%;
+		text-align: center;
+		font-family: MyriadPro-Semibold;
+		font-size: 18px;
+		color: #7B838A;
+		line-height: 22px;
+	}
+
+	.understand-product-text {
+		width: 69%;
+		text-align: center;
+		font-family: MyriadPro-Regular;
+		font-size: 16px;
+		color: #7B838A;
+		line-height: 19.5px;
+		margin: 7px auto 0;
+	}
+
+	.kong {
+		display: block;
+		height: 148px
+	}
+
+	/*招商页--------------------------------------------------------------------------------招商页*/
+	.partner-top {
+		width: 100%;
+		height: 227px;
+		background: url(./pantner_top_img_375.png)no-repeat center center;
+		background-size: 414px 100%;
+		padding-top: 77px;
+	}
+
+	.partner-bt {
+		font-family: MyriadPro-Semibold;
+		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 35px;
+	}
+
+	.partner-text {
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: rgba(255, 255, 255, 0.80);
+		line-height: 22px;
+		margin-top: 0;
+		letter-spacing: 0;
+	}
+
+	.partner-product {
+		padding: 40px 0 46px;
+	}
+
+	.partner-product-text {
+		width: 314px;
+		text-align: center;
+		font-family: MyriadPro-Regular;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 22px;
+	}
+
+	.sub-information-text {
+		height: 44px;
+		margin-bottom: 35px;
+	}
+
+	.sub-text-mobile {
+		font-family: MyriadPro-Semibold;
+		font-size: 18px;
+		color: #959DA3;
+		line-height: 22px;
+	}
+
+	.sub-information {
+		padding: 50px 0 60px;
+	}
+
+	.information-error {
+		font-family: MyriadPro-Regular;
+		font-size: 12px;
+		color: #D0011B;
+		line-height: 14px;
+		position: absolute;
+		bottom: 123px;
+		left: 8%;
+		display: none;
+	}
+
+	.sub-information-name {
+		width: 84%;
+		font-family: MyriadPro-Regular;
+		font-size: 16px;
+		color: #959DA3;
+		line-height: 19px;
+	}
+
+	.sub-information-value {
+		height: 40px;
+		width: 84%;
+		margin: 5px auto 13px;
+		font-size: 22px;
+	}
+
+	.sub-information-more {
+		height: 90px;
+		width: 84%;
+		margin: 7px auto 10px;
+	}
+
+	.sub-information-btn {
+		background: #609FF9;
+		border-radius: 5px;
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 45px auto 0;
+		font-family: MyriadPro-Semibold;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+
+	.errorTip {
+		padding-left: 8%;
+	}
+
+	.sub-information-btn {
+		margin: 45px 0 0 8%;
+	}
+
+	.successTip {
+		padding-left: 8%;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 376px) {
+
+	/*html,body,.purchase-channel{
+		overflow-x: hidden;
+	}*/
+	/*375购买页面头部图片变化-----------------------------------------------------------------375购买页面头部图片变化*/
+	.purchase-channel-top-part {
+		height: 228px;
+		background: url(./purchase_channel_top_bg_375.png) no-repeat center center;
+		background-size: 375px 100%;
+		padding-top: 80px;
+	}
+
+	/*375招商页面头部图片变化-----------------------------------------------------------------375招商页面头部图片变化*/
+	.partner-top {
+		width: 100%;
+		height: 227px;
+		padding-top: 79px;
+		background: url(./pantner_top_img_375.png)no-repeat center center;
+		background-size: 375px 227px;
+		overflow: hidden;
+		/*box-sizing: content-box;*/
+	}
+
+	.errorTip {
+		padding-left: 8%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+	/*购买页面问题-----------------------------------------------------------------购买页面头部图片变化*/
+	.purchase-channel-all-icon {
+		padding: 0 50px;
+	}
+}

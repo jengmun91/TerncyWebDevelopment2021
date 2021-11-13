@@ -1,0 +1,26 @@
+
+//if($(window).width() > 600){
+$(".video-player").click(function () {
+	$(".zhezhao").show()
+	$("video").show()
+	$(".player-box").show()
+})
+$(".player-video").click(function () {
+	$(this).hide()
+	if ($("video").hasClass('pause')) {
+		$("video").trigger("play");
+		$("video").removeClass('pause');
+		$("video").addClass('play');
+	} else {
+		$("video").trigger("pause");
+		$("video").removeClass('play');
+		$("video").addClass('pause');
+	}
+})
+//}
+//$(".player-box").mouseenter(function() {
+//	$(".player-video").show()
+//})
+//$(".player-box").mouseleave(function() {
+//	$(".player-video").hide()
+//})

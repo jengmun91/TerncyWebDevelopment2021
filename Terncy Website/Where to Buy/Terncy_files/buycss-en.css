@@ -1,0 +1,1778 @@
+body {
+    max-width: 1300px;
+    position: relative;
+    background-color: white !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.buy-top-top {
+    width: 98.4%;
+    height: 380px;
+    background: url(./1300-1.png) center center no-repeat;
+    background-size: 1280px 380px;
+    padding-top: 143px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.top-top-fontsize {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-top-impsize {
+    width: 100%;
+    height: 30px;
+    font-family: MyriadPro-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+}
+
+.buy-top-conten {
+    width: 100%;
+    height: 87px;
+    margin-bottom: 83px;
+}
+
+.top-conten-fontsize {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 30px;
+    color: #7A848C;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.top-conten-impsize {
+    width: 100%;
+    height: 29px;
+    opacity: 0.8;
+    font-family: MyriadPro-Regular;
+    font-size: 22px;
+    color: #959DA3;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+.buy-top-botom {
+    width: 629px;
+    height: 245px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-botom-left {
+    width: 220px;
+    height: 245px;
+}
+
+.tmall-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-2.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.tmall-logo:hover {
+    opacity: 0.7;
+}
+
+.tmall-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.top-botom-right {
+    width: 220px;
+    height: 245px;
+}
+
+.jd-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-3.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.jd-logo:hover {
+    opacity: 0.7;
+}
+
+.jd-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.buy-conten-top {
+    width: 629px;
+    height: 245px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conten-top-left {
+    width: 220px;
+    height: 245px;
+}
+
+.amazon-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-4.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.amazon-logo:hover {
+    opacity: 0.7;
+}
+
+.amazon-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.conten-top-right {
+    width: 220px;
+    height: 245px;
+}
+
+.mi-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-5.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.mi-logo:hover {
+    opacity: 0.7;
+}
+
+.mi-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.buy-conten-conten {
+    width: 100%;
+    height: 67px;
+    margin-bottom: 83px;
+}
+
+.conten-conten-fontsize {
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 30px;
+    color: #7A848C;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.conten-conten-impsize {
+    width: 100%;
+    height: 35px;
+    opacity: 0.8;
+    font-family: MyriadPro-Regular;
+    font-size: 22px;
+    color: #959DA3;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+
+.buy-conten-botom {
+    width: 629px;
+    height: 245px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conten-botom-left {
+    width: 220px;
+    height: 245px;
+}
+
+.apple-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-6.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.apple-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.conten-botom-right {
+    width: 220px;
+    height: 245px;
+}
+
+.applebuy-logo {
+    width: 188px;
+    height: 188px;
+    background: url(./1300-7.png) center center no-repeat;
+    background-size: 188px 188px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.applebuy-size {
+    width: 220px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 22px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.buy-bot-top {
+    width: 1140px;
+    height: 398px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.bot-top-left {
+    width: 50%;
+    height: 398px;
+    background: url(./375-1.png) center center no-repeat;
+    background-size: 570px 398px;
+}
+
+.bot-top-right {
+    width: 50%;
+    height: 398px;
+    padding-top: 90px;
+    padding-left: 100px;
+    background: #F5F7F9;
+}
+
+.top-right-fontsize {
+    width: 265px;
+    height: 30px;
+    line-height: 30px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 30px;
+    color: #7B838A;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.top-right-impsize {
+    width: 421px;
+    opacity: 0.8;
+    font-family: MyriadPro-Regular;
+    font-size: 22px;
+    color: #7B838A;
+    line-height: 29px;
+    margin-bottom: 44px;
+}
+.button-link{
+    width: 120px;
+    height: 40px;
+}
+.top-right-button {
+    width: 120px;
+    height: 40px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 18px;
+    color: #7B838A;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #7B838A;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.top-right-button:hover {
+    background: #b8bdce;
+    border: none;
+    color: #fff;
+}
+
+
+.buy-bot-conten {
+    width: 1140px;
+    height: 398px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.bot-conten-left {
+    width: 50%;
+    height: 398px;
+    background: url(./Page1.png) center center no-repeat;
+    background-size: 570px 398px;
+}
+
+.bot-conten-right {
+    width: 50%;
+    height: 398px;
+    padding-top: 90px;
+    padding-left: 100px;
+    background: #F5F7F9;
+
+}
+
+.conten-right-fontsize {
+    width: 240px;
+    height: 30px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 30px;
+    color: #7B838A;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.conten-right-impsize {
+    width: 350px;
+    opacity: 0.8;
+    font-family: MyriadPro-Regular;
+    font-size: 22px;
+    color: #7B838A;
+    line-height: 29px;
+    margin-bottom: 44px;
+}
+
+.conten-right-button {
+    width: 120px;
+    height: 40px;
+    font-family: MyriadPro-SemiboldSemiCn;
+    font-size: 18px;
+    color: #7B838A;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #7B838A;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.conten-right-button:hover {
+    background: #b8bdce;
+    border: none;
+    color: #fff;
+}
+
+@media only screen and (min-width: 558px) and (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .buy-top-top {
+        width: 100%;
+        height: 500px;
+        background: url(./buy/767/767-1.png) center center no-repeat;
+        background-size: 767px 500px;
+        padding-top: 210px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
+
+    .top-top-fontsize {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 40px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center
+    }
+
+    .top-top-impsize {
+        width: 100%;
+        height: 35px;
+        font-family: MyriadPro-Regular;
+        font-size: 22px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .buy-top-conten {
+        width: 100%;
+        height: 68px;
+        margin-bottom: 82px;
+    }
+
+    .top-conten-fontsize {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 30px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .top-conten-impsize {
+        width: 100%;
+        height: 30px;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .buy-top-botom {
+        width: 556px;
+        height: 245px;
+        margin: 0 auto;
+        margin-bottom: 95px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .top-botom-left {
+        width: 220px;
+        height: 245px;
+    }
+
+    .tmall-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./buy/767/767-2.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .tmall-logo:hover {
+        opacity: 0.7;
+    }
+
+    .tmall-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .top-botom-right {
+        width: 220px;
+        height: 245px;
+    }
+
+    .jd-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./767-3.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .jd-logo:hover {
+        opacity: 0.7;
+    }
+
+    .jd-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-conten-top {
+        width: 556px;
+        height: 245px;
+        margin: 0 auto;
+        margin-bottom: 118px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conten-top-left {
+        width: 220px;
+        height: 245px;
+    }
+
+    .amazon-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./767-4.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .amazon-logo:hover {
+        opacity: 0.7;
+    }
+
+    .amazon-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .conten-top-right {
+        width: 220px;
+        height: 245px;
+    }
+
+    .mi-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./buy/767/767-5.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .mi-logo:hover {
+        opacity: 0.7;
+    }
+
+    .mi-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-conten-conten {
+        width: 100%;
+        height: 98px;
+        margin-bottom: 120px;
+    }
+
+    .conten-conten-fontsize {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 30px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .conten-conten-impsize {
+        width: 365px;
+        height: 60px;
+        line-height: 30px;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .buy-conten-botom {
+        width: 556px;
+        height: 245px;
+        margin: 0 auto;
+        margin-bottom: 112px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conten-botom-left {
+        width: 220px;
+        height: 245px;
+    }
+
+    .apple-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./1300-6.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .apple-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .conten-botom-right {
+        width: 220px;
+        height: 245px;
+    }
+
+    .applebuy-logo {
+        width: 188px;
+        height: 188px;
+        background: url(./1300-7.png) center center no-repeat;
+        background-size: 188px 188px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .applebuy-size {
+        width: 220px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-bot-top {
+        width: 100%;
+        height: 931px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 15px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        height: 518px;
+        background: url(./375-1.png) center center no-repeat;
+        background-size: 767px 518px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 398px;
+        padding-top: 108px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 15px;
+    }
+
+    .top-right-fontsize {
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 30px;
+        color: #7B838A;
+        letter-spacing: 0;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .top-right-impsize {
+        width: 421px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 44px;
+    }
+
+    .top-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .top-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+
+
+    .buy-bot-conten {
+        width: 100%;
+        height: 931px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bot-conten-left {
+        width: 100%;
+        height: 518px;
+        background: url(./375-2.png) center center no-repeat;
+        background-size: 767px 518px;
+    }
+
+    .bot-conten-right {
+        width: 100%;
+        height: 398px;
+        padding-top: 108px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 15px;
+    }
+
+    .conten-right-fontsize {
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 30px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .conten-right-impsize {
+        width: 336px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 44px;
+    }
+
+    .conten-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .conten-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 557px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .buy-top-top {
+        width: 100%;
+        height: 338px;
+        background: url(./557-1.png) center center no-repeat;
+        background-size: 557px 338px;
+        padding-top: 135px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .top-top-fontsize {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 30px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .top-top-impsize {
+        width: 100%;
+        height: 22px;
+        letter-spacing: 0;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-top-conten {
+        width: 100%;
+        height: 62px;
+        margin-bottom: 60px;
+    }
+
+    .top-conten-fontsize {
+        width: 100%;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 25px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .top-conten-impsize {
+        width: 100%;
+        height: 22px;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-top-botom {
+        width: 431px;
+        height: 190px;
+        margin: 0 auto;
+        margin-bottom: 63px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .top-botom-left {
+        width: 180px;
+        height: 190px;
+    }
+
+    .tmall-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./557-2.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .tmall-logo:hover {
+        opacity: 0.7;
+    }
+
+    .tmall-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .top-botom-right {
+        width: 180px;
+        height: 190px;
+    }
+
+    .jd-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./557-3.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .jd-logo:hover {
+        opacity: 0.7;
+    }
+
+    .jd-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .buy-conten-top {
+        width: 431px;
+        height: 190px;
+        margin: 0 auto;
+        margin-bottom: 76px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conten-top-left {
+        width: 180px;
+        height: 190px;
+    }
+
+    .amazon-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./557-4.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .amazon-logo:hover {
+        opacity: 0.7;
+    }
+
+    .amazon-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .conten-top-right {
+        width: 180px;
+        height: 190px;
+    }
+
+    .mi-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./557-5.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .mi-logo:hover {
+        opacity: 0.7;
+    }
+
+    .mi-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .buy-conten-conten {
+        width: 100%;
+        height: 87px;
+        margin-bottom: 60px;
+    }
+
+    .conten-conten-fontsize {
+        width: 100%;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 25px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 9px;
+    }
+
+    .conten-conten-impsize {
+        width: 335px;
+        height: 50px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 25px;
+    }
+
+
+    .buy-conten-botom {
+        width: 431px;
+        height: 190px;
+        margin: 0 auto;
+        margin-bottom: 76px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conten-botom-left {
+        width: 180px;
+        height: 190px;
+    }
+
+    .apple-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./1300-6.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .apple-logo:hover {
+        opacity: 0.7;
+    }
+
+    .apple-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .conten-botom-right {
+        width: 180px;
+        height: 190px;
+    }
+
+    .applebuy-logo {
+        width: 148px;
+        height: 148px;
+        background: url(./1300-7.png) center center no-repeat;
+        background-size: 148px 148px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .applebuy-logo:hover {
+        opacity: 0.7;
+    }
+
+    .applebuy-size {
+        width: 180px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    .buy-bot-top {
+        width: 100%;
+        height: 712px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 15px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        height: 401px;
+        background: url(./375-1.png) center center no-repeat;
+        background-size: 557px 401px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 296px;
+        padding-top: 60px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 15px;
+    }
+
+    .top-right-fontsize {
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 25px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .top-right-impsize {
+        width: 307px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .top-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 16px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .top-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+
+
+    .buy-bot-conten {
+        width: 100%;
+        height: 712px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bot-conten-left {
+        width: 100%;
+        height: 401px;
+        background: url(./375-2.png) center center no-repeat;
+        background-size: 557px 401px;
+    }
+
+    .bot-conten-right {
+        width: 100%;
+        height: 296px;
+        padding-top: 60px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 15px;
+    }
+
+    .conten-right-fontsize {
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 25px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .conten-right-impsize {
+        width: 325px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .conten-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 16px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .conten-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 414px) {
+    .main-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .buy-top-top {
+        width: 100%;
+        height: 228px;
+        background: url(./414-1.png) center center no-repeat;
+        background-size: 414px 228px;
+        padding-top: 83px;
+        margin: 0 auto;
+        margin-bottom: 39px;
+    }
+
+    .top-top-fontsize {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .top-top-impsize {
+        width: 100%;
+        height: 22px;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .buy-top-conten {
+        width: 100%;
+        height: 82px;
+        margin-bottom: 48px;
+    }
+
+    .top-conten-fontsize {
+        width: 100%;
+        height: 22px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 12px;
+    }
+
+    .top-conten-impsize {
+        width: 200px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 50px;
+    }
+
+    .buy-top-botom {
+        width: 100%;
+        height: 365px;
+        margin: 0 auto;
+        margin-bottom: 53px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-botom-left {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+        margin-bottom: 52px;
+    }
+
+    .tmall-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-2.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+	
+	.shopee-logo {
+        width: 119px;
+        height: 119px;
+        /*background: url(./shopee.png) center center no-repeat;*/
+        background-size: 50px 50px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .lazada-logo {
+        width: 119px;
+        height: 119px;
+        /*background: url(./Terncy_files/lazada.png) center center no-repeat;*/
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .tmall-logo:hover {
+        opacity: 0.7;
+    }
+
+    .tmall-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .top-botom-right {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .jd-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-3.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .jd-logo:hover {
+        opacity: 0.7;
+    }
+
+    .jd-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .buy-conten-top {
+        width: 100%;
+        height: 365px;
+        margin: 0 auto;
+        margin-bottom: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conten-top-left {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+        margin-bottom: 52px;
+    }
+
+    .amazon-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-4.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .amazon-logo:hover {
+        opacity: 0.7;
+    }
+
+    .amazon-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .conten-top-right {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .mi-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-5.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .mi-logo:hover {
+        opacity: 0.7;
+    }
+
+    .mi-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .buy-conten-conten {
+        width: 100%;
+        height: 82px;
+        margin-bottom: 53px;
+    }
+
+    .conten-conten-fontsize {
+        width: 100%;
+        height: 22px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 12px;
+    }
+
+    .conten-conten-impsize {
+        width: 261px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+    }
+
+
+    .buy-conten-botom {
+        width: 100%;
+        height: 365px;
+        margin: 0 auto;
+        margin-bottom: 77px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conten-botom-left {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+        margin-bottom: 52px;
+    }
+
+    .apple-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-6.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .apple-logo:hover {
+        opacity: 0.7;
+    }
+
+    .apple-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .conten-botom-right {
+        width: 184px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .applebuy-logo {
+        width: 119px;
+        height: 119px;
+        background: url(./414-7.png) center center no-repeat;
+        background-size: 119px 119px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .applebuy-logo:hover {
+        opacity: 0.7;
+    }
+
+    .applebuy-size {
+        width: 184px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .buy-bot-top {
+        width: 100%;
+        height: 498px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+
+    .bot-top-left {
+        width: 100%;
+        height: 270px;
+        background: url(./414-8.png) center center no-repeat;
+        background-size: 414px 270px;
+    }
+
+    .bot-top-right {
+        width: 100%;
+        height: 228px;
+        padding-top: 40px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 0px;
+    }
+
+    .top-right-fontsize {
+        width: 100%;
+        text-align: center;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .top-right-impsize {
+        width: 278px;
+        margin: 0 auto;
+        opacity: 0.8;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .top-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 16px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .top-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+
+
+    .buy-bot-conten {
+        width: 100%;
+        height: 498px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+
+    .bot-conten-left {
+        width: 100%;
+        height: 270px;
+        background: url(./414-9.png) center center no-repeat;
+        background-size: 414px 270px;
+    }
+
+    .bot-conten-right {
+        width: 100%;
+        height: 228px;
+        padding-top: 40px;
+        padding-left: 0px;
+        background: #F5F7F9;
+        margin-bottom: 0px;
+    }
+
+    .conten-right-fontsize {
+        width: 100%;
+        text-align: center;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 22px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .conten-right-impsize {
+        width: 288px;
+        opacity: 0.8;
+        margin: 0 auto;
+        font-family: MyriadPro-Regular;
+        font-size: 18px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 25px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .conten-right-button {
+        width: 120px;
+        height: 40px;
+        font-family: MyriadPro-SemiboldSemiCn;
+        font-size: 16px;
+        color: #7B838A;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #7B838A;
+        border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .conten-right-button:hover {
+        background: #b8bdce;
+        border: none;
+        color: #fff;
+    }
+}

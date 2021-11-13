@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://www.xiaoyan.io/en-us/blog/posts/data_backup_and_restore/ -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>FAQ / Guide | How to backup and restore Terncy Home Center data</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.37">
+    
+    
+      <meta name="ROBOTS" content="INDEX, FOLLOW">
+    
+
+    <link href="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/main.css" rel="stylesheet" type="text/css">
+    
+      <link rel="shortcut icon" href="https://www.xiaoyan.io/assets/img/favicon.ico" type="image/x-icon">
+
+    
+
+    
+
+    <meta property="og:title" content="How to backup and restore Terncy Home Center data">
+<meta property="og:description" content="Backup is the your system rescue when facing a device damage situation. No matter how you change your system, you can eventually return to where it started. Data can be restored, so you don’t have to worry about losing data if the gateway is damaged.
+Terncy app, backup and restore feature is already supported.
+If you want to back up and restore HomeKit data, refer to the article Backup and Restore of HomeKit data.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.xiaoyan.io/en-us/blog/posts/data_backup_and_restore/">
+
+
+
+<meta property="article:published_time" content="2021-01-17T15:00:23+08:00">
+
+<meta property="article:modified_time" content="2021-01-17T15:00:23+08:00">
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="How to backup and restore Terncy Home Center data">
+<meta itemprop="description" content="Backup is the your system rescue when facing a device damage situation. No matter how you change your system, you can eventually return to where it started. Data can be restored, so you don’t have to worry about losing data if the gateway is damaged.
+Terncy app, backup and restore feature is already supported.
+If you want to back up and restore HomeKit data, refer to the article Backup and Restore of HomeKit data.">
+
+
+<meta itemprop="datePublished" content="2021-01-17T15:00:23+08:00">
+<meta itemprop="dateModified" content="2021-01-17T15:00:23+08:00">
+<meta itemprop="wordCount" content="398">
+
+
+
+<meta itemprop="keywords" content="Home Center，backup，restore,">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to backup and restore Terncy Home Center data">
+<meta name="twitter:description" content="Backup is the your system rescue when facing a device damage situation. No matter how you change your system, you can eventually return to where it started. Data can be restored, so you don’t have to worry about losing data if the gateway is damaged.
+Terncy app, backup and restore feature is already supported.
+If you want to back up and restore HomeKit data, refer to the article Backup and Restore of HomeKit data.">
+
+  <!-- <script type="text/javascript" async="" charset="utf-8" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/core.php"></script> -->
+  <script async="" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/analytics.js.download"></script><script type="text/javascript" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/z_stat.php"></script></head>
+
+  <body class="ma0 avenir bg-near-white clickup-chrome-ext_installed" data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="">
+
+    
+
+  <header>
+    <meta name="google-site-verification" content="m2Bgiwr-UfMUWi9OQEcNX9ttwxZKjN2rUb0_CZTGWaQ">
+    <script type="text/javascript">
+function loadjscssfile(filename, filetype){
+	var fileref;
+    if (filetype=="js")
+    {
+      fileref=document.createElement('script');
+      fileref.setAttribute("type","text/javascript");
+      fileref.setAttribute("src", filename);
+    }
+    else if (filetype=="css")
+    {
+      fileref=document.createElement("link");
+      fileref.setAttribute("rel", "stylesheet");
+      fileref.setAttribute("type", "text/css");
+      fileref.setAttribute("href", filename);
+    }
+    if (typeof fileref!="undefined")
+    {
+      document.getElementsByTagName("head")[0].appendChild(fileref);
+    }
+}
+/*loadjscssfile("https://s13.cnzz.com/z_stat.php?id=1262178205&web_id=1262178205", "js");*/
+(function(i, s, o, g, r, a, m) {
+	i['GoogleAnalyticsObject'] = r;
+	i[r] = i[r] || function() {
+		(i[r].q = i[r].q || []).push(arguments);
+	}, i[r].l = 1 * new Date();
+	a = s.createElement(o),
+		m = s.getElementsByTagName(o)[0];
+	a.async = 1;
+	a.src = g;
+	m.parentNode.insertBefore(a, m);
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-100765713-1', 'auto');
+ga('send', 'pageview');
+    </script>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href=".\Blog - Terncy.html" class="f3 fw2 hover-white no-underline white-90 dib">
+      FAQ / Guide
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="../index_no_loader.html" title="Home page">
+              Home
+            </a>
+          </li>
+          
+        </ul>
+      
+      <style>
+        .ul-box{
+            width:100%;
+            position:absolute
+                }
+        #results {
+            width: 320px;
+            opacity: 0.98;
+            border-radius: 0 0 3px 3px;
+            padding: 0px;
+            margin: 0px;
+            position: absolute;
+            background: rgba(14,8,3,0.95);
+            z-index: 1;
+        }
+    
+        #results li {
+            width: 100%;
+            min-height: 33px;
+            line-height: 33px;
+            padding: 0 17px;
+             
+             
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.40);
+            letter-spacing: 0;
+            margin: 0px;
+            border-top: 1px solid #3E3830;
+        }
+    
+        #results li a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-decoration: none;
+             
+            color: rgba(255, 255, 255, 0.40);
+            text-overflow: -o-ellipsis-lastline;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+            font-family: PingFang SC;
+             
+        }
+    
+        #results li:hover {
+            color: rgba(255, 255, 255, 0.80);
+            background: rgba(255, 255, 255, 0.34);
+        }
+    
+        #results li:hover a {
+            color: rgba(255, 255, 255, 0.80);
+        }
+    
+        .search-box {
+            width: 320px;
+            height: 33px;
+            display: flex;
+             
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        #search {
+            width: 295px;
+            height: 33px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 3px 0px 0 3px;
+            border: none;
+             
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.80);
+            letter-spacing: 0;
+            padding-left: 16px;
+            outline: none;
+        }
+    
+        .search-icon-box {
+            width: 25px;
+            height: 33px;
+            border-radius: 0px 3px 3px 0;
+            background: rgba(255, 255, 255, 0.15);
+            display: flex;
+            align-items: center;
+        }
+    
+        .search-icon-box img {
+            width: 17px;
+            height: 17px;
+        }
+    
+        .search-identification {
+            z-index: 1;
+        }
+    
+        @media screen and (max-width: 960px) {
+            #results {
+                width: 320px;
+                background: rgba(14, 8, 3, 0.98);
+                border-radius: 0 0 3px 3px;
+                padding: 0px;
+                margin: 0px;
+                position: absolute;
+            }
+            #results li {
+            border-top:0.1rem solid rgba(62,56,48,0.7);
+            }
+        }
+    </style>
+<div style="margin-right: 30px">
+    <div class="search-identification search-box"><input class="search-identification" id="search" type="text" placeholder="Search ...">
+        <div class="search-identification search-icon-box"><img class="search-identification" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/blog_icon_search.png"></div>
+    </div>
+    <div class="search-identification ul-box">
+        <ul style="list-style-type: none;" id="results" class="search-identification">
+        </ul>
+    </div>
+</div>
+    <script type="text/javascript" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/jquery-2.1.3.min.js.download"></script>
+    <script type="text/javascript" src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/lunr.min.js.download"></script>
+    <script type="text/javascript">
+    var lunrIndex,
+        $results,
+        pagesIndex;
+    $(document).on("click", function (e) {
+        let className = e.target.classList[0];
+        if (className !== 'search-identification') {
+            changeradius(0)
+            $("#results").hide();
+        } else {
+            if($("#search").val().length >2){
+                
+                changeradius(1) 
+            }
+            $("#results").show();
+        }
+    });
+    
+    function initLunr() {
+        
+        $.getJSON("\/en-us\/blog\//dist/PagesIndex.json")
+            .done(function (index) {
+                pagesIndex = index;
+                
+
+                
+                
+                lunrIndex = lunr(function () {
+                    this.field("title", {
+                        boost: 10
+                    });
+                    this.field("tags", {
+                        boost: 5
+                    });
+                    this.field("content");
+
+                    
+                    this.ref("href");
+                    let that = this;
+                    
+                    pagesIndex.forEach(function (page) {
+                        that.add(page);
+                    });
+                });
+
+            })
+            .fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                
+            });
+    }
+
+    
+    function initUI() {
+        $results = $("#results");
+        $("#search").on("input",function () {
+            $results.empty();
+            
+            var query = $(this).val();
+            if (query.length < 2) {
+                changeradius(0)
+                return;
+            }
+
+            var results = search(query);
+
+            renderResults(results);
+        });
+    }
+
+    
+
+    function search(query) {
+        
+        
+        
+        
+        
+        return lunrIndex.search(query).map(function (result) {
+            return pagesIndex.filter(function (page) {
+                return page.href === result.ref;
+            })[0];
+        });
+    }
+
+    
+
+    function renderResults(results) {
+        if (!results.length) {
+            
+            return;
+        }
+
+        
+        results.slice(0, 42).forEach(function (result) {
+            var $result = $("<li>", {
+                class: 'search-identification'
+            });
+            $result.append($("<a>", {
+                href: "\/en-us\/blog\//posts/" + result.href + "/",
+                text: result.title,
+                class: 'search-identification'
+            }));
+            $results.append($result);
+        });
+        $("#results li").each(function () {
+            
+            if ($(this).height() > 35) {
+                $(this).css({ 'line-height': '26px' })
+            }
+        })
+        $("#results").each(function () {
+            if($(this).height() > 1){
+                changeradius(1)
+            }else{
+                changeradius(0)
+            }
+        })
+    }
+
+    
+    initLunr();
+
+    $(document).ready(function () {
+        initUI();
+    });
+    function changeradius(code){
+        if(code == 0){
+
+$(".search-icon-box").css({'border-radius':'0 3px 3px 0'})
+                $("#search").css({'border-radius':'3px 0 0 3px'})
+        }else{
+
+$(".search-icon-box").css({'border-radius':'0 3px 0 0'})
+                $("#search").css({'border-radius':'3px 0 0 0'})
+        }
+    }
+</script>
+
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked">
+          POSTS
+        </p>
+        <h1 class="f1">
+          How to backup and restore Terncy Home Center data
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        
+
+<p>Backup is the your system rescue when facing a device damage situation. No matter how you change your system, you can eventually return to where it started. Data can be restored, so you don’t have to worry about losing data if the gateway is damaged.</p>
+
+<p><strong>Terncy app, backup and restore feature is already supported.</strong></p>
+
+<p><font size="4"></font></p><font size="4">
+
+<p>If you want to back up and restore HomeKit data, refer to the article <a href="Blog - Terncy _ Backup and Restore of HomeKit data.html">Backup and Restore of HomeKit data</a>.</p>
+
+</font><p><font size="4"></font></p>
+
+<p><font size="3"></font></p><font size="3">
+
+<p>*  Note: This feature is only supported on home center v3.0.15 or above, and Terncy app v2.3.3 or above.</p>
+
+<p>*  The backup contains scenes, devices, device names, rooms, and automation in the Home Center.</p>
+
+<p>*  Backup data from one home center can be restored to other home centers.</p>
+
+</font><p><font size="3"></font></p>
+
+<h2 id="how-to-create-a-backup">How to create a backup</h2>
+
+<ol>
+<li>In the Terncy app, choose the “Me” tab, and choose “data backup”;</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/001.png" width="300">
+</div>
+
+<ol>
+<li>Tap the “➕” button , choose the home center that you want to backup, and tap “Next”.</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/002.png" width="300"> <img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/003.png" width="300">
+</div>
+
+<ol>
+<li>After the backup complete, please enter a description, and tap “complete” in the upper right corner to save the backup.</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/005.png" width="300">
+</div>
+
+<ol>
+<li>The created backup data will be displayed in the backup list.</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/006.png" width="300">
+</div>
+
+<h2 id="how-to-restore-data-from-a-backup">How to restore data from a backup</h2>
+
+<ol>
+<li>Tap the “Data restore” button on the data backup details page, choose the home center that you want to restore, and tap “Next”.</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/007.png" width="300"> <img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/008.png" width="300">
+</div>
+
+<ol>
+<li>Tap the “OK” button, waiting for the restore to complete.</li>
+</ol>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/009.png" width="300"> <img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/010.png" width="300">
+</div>
+
+<ol>
+<li>After the restore successful, some offline devices may need to be added again.</li>
+</ol>
+
+<h2 id="how-to-save-and-use-backup-data-more-reliably">How to save and use backup data more reliably</h2>
+
+<p><strong><em>Note: The backup data is saved on the mobile phone by default, so it will not be found when you login to your account with another mobile phone or uninstall Terncy app. In order to prevent the loss of backup data, you can save the data with share data feature, saving it to Mail, WeChat, Google Drive, github and other more reliable storages.</em></strong></p>
+
+<p>Tap the “Save to…” button on the data backup details page, choose the way you want to save.</p>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/007.png" width="300">
+</div>
+
+<p>After successful sharing, if you want to use the backup data on the new mobile phone, you can do the following:</p>
+
+<p><strong><em>iOS</em></strong>： Download backup file, tap “Open in Other App” and choose “Save to Files” and choose “Terncy”, tap “Save”.</p>
+
+<div align="center">
+<img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/image011.png" width="300"> <img src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/image012.png" width="300">
+</div>
+
+<p><strong><em>Android</em></strong>： Download backup file,find the file in the Files,long press copy to <strong><em>Internal storage</em></strong>/<strong><em>Android</em></strong>/<strong><em>data</em></strong>/<strong><em>com.xiaoyan.ui</em></strong>/<strong><em>files</em></strong></p>
+
+<p>At this time, the downloaded backup data can be used in the Terncy app.</p>
+
+      </div>
+    </article>
+    <aside class="ph3 mt2 mt6-ns">
+      
+
+	  <div class="bg-light-gray pa3">
+	  <ul>
+      <!-- <li class="list b mb3">
+        Tags
+      </li>
+  
+        <li class="list f5 w-90 hover-bg-white nl1">
+              <a href="https://www.xiaoyan.io/en-us/blog/tags/homekit%ef%bc%8cHome%20Center%ef%bc%8cbackup%ef%bc%8crestore" class="link mid-gray dim">
+                 homekit，Home Center，backup，restore
+              </a>
+		</li> -->
+  
+	  </ul>
+    </div>
+
+
+      
+
+
+
+
+
+
+
+  <div class="bg-light-gray pa3">
+    <ul>
+      <!-- <li class="list b mb3">
+        74 More Posts
+      </li> -->
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Backup and Restore of HomeKit data.html" class="link ph2 pv2 db black">
+            Backup and Restore of HomeKit data
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ How to backup and restore Terncy Home Center data.html" class="link ph2 pv2 db black">
+            How to backup and restore Terncy Home Center data
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ How to distinguish between ZigBee and Bluetooth mode.html" class="link ph2 pv2 db black">
+            How to distinguish between ZigBee and Bluetooth mode
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ How to solve the problem that Terncy Home Center cannot connect to the cloud.html" class="link ph2 pv2 db black">
+            How to solve the problem that Terncy Home Center cannot connect to the cloud
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Smart speaker support.html" class="link ph2 pv2 db black">
+            Smart speaker support
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Switch Terncy dual mode device from Bluetooth to ZigBee.html" class="link ph2 pv2 db black">
+            Switch Terncy dual mode device from Bluetooth to ZigBee
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Switch Terncy dual mode device from ZigBee to Bluetooth.html" class="link ph2 pv2 db black">
+            Switch Terncy dual mode device from ZigBee to Bluetooth
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Terncy Home Center Log Management.html" class="link ph2 pv2 db black">
+            Terncy Home Center Log Management
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Terncy Product Manual.html" class="link ph2 pv2 db black">
+            Terncy Product Manual
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+            <a href="./Blog - Terncy _ Trouble shotting HomeKit pairing issue.html" class="link ph2 pv2 db black">
+                Troubleshooting HomeKit pairing issue
+            </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="./Blog - Terncy _ Use Beta Profile.html" class="link ph2 pv2 db black">
+            Use Beta Profile
+          </a>
+        </li>
+      
+        
+    </ul>
+  </div>
+
+
+    </aside>
+  </div>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=".\Blog - Terncy.html">
+    © 2021 FAQ / Guide
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    <script src="./Blog - Terncy _ How to backup and restore Terncy Home Center data_files/app.bundle.js.download" async=""></script>
+
+  
+
+<div id="clickup-floating-chrome-extension-frame-box" class="clickup-floating-chrome-extension-frame-box-left mfb-component--br clickup-floating-chrome-extension-frame-box-1634610083045" style="bottom: 10px; left: 216px; display: block; z-index: 2147483636;"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
