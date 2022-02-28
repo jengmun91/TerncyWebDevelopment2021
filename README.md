@@ -1,2 +1,4 @@
 # TerncyWebDevelopment2021
-Changes UI design 
+Changes in UI design 
+Logo change whatif between terncy switches when scroll
+Footer change. 
